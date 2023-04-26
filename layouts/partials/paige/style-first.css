@@ -17,3 +17,6 @@
 .paige-summary {
     display: none;
 }
+#paige-content {
+    overflow-x: hidden!important;
+}
