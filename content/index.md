@@ -97,10 +97,10 @@ TBD
 
 ## Contact
 
-Abhinav Dhall, abhinav.dhall@flinders.edu.au
-Zhixi Cai, zhixi.cai@monash.edu
-Kalin Stefanov, kalin.stefanov@monash.edu
-Shreya Ghosh, shreya.ghosh@curtin.edu.au
+- Abhinav Dhall, abhinav.dhall@flinders.edu.au
+- Zhixi Cai, zhixi.cai@monash.edu
+- Kalin Stefanov, kalin.stefanov@monash.edu
+- Shreya Ghosh, shreya.ghosh@curtin.edu.au
  
 
 <style>
