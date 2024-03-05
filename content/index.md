@@ -1,268 +1,101 @@
 ---
-title: "REACT2023: REsponsible Affective CompuTing"
-date: 2023-04-04T00:06:56+08:00
+title: "1M-Deepfakes Detection Challenge - ACM Multimedia 2024"
+date: 2024-03-05T00:06:56+08:00
 ---
 
 <br>
 <div class="row">
   <div>
     <p><center>
-        <img class="img-fluid banner-pic" src="/2023/img/banner.jpg">
+        <img class="img-fluid banner-pic" src="https://raw.githubusercontent.com/ControlNet/AV-Deepfake1M/master/assets/teaser.png">
     </center></p>
-    <p><center>
+    <!-- <p><center>
       Full day, <font size="3" color="red"> Oct 2023</font> (Full-day)
-    </center></p>
+    </center></p> -->
   </div>
 </div><br>
 
 
 ## Introduction
 
-With the rapid advancements in social computing, multimedia, and sensing technology, Affective Computing research have provoked more discussion about the potential consequences of intelligent AI equipped with emotional intelligence. Affective computing research is engaged with ethics at different stages, from training of emotionally intelligent models with enormous amount of human data to deploying the code in application specific environment. In principal, the development of any AI system must be guided by a concern for its human impact. The aim should be striving to augment and enhance humans, not replace human; while taking inspiration from human intelligence. The problem arises when in some areas especially for data protection and research with human participants; when explicit codes give the AI system legal force and it impact human implicitly/explicitly. To this end, Responsible AI address this issue by analyzing its potential implications and enhance technology in a privacy preserving way. The REACT 2023 workshop aims to transfer the same concept to small-scale, lab based environment to real-world, large-scale corpus enhanced with responsibility. The workshop also focuses to bring attention of the researchers and industry professionals on the potential implications of Emotional-AI developments, and evaluating the moral and ethical consequences. 
+The tremendous progress in generative AI has made the generation and manipulation of synthetic data easier and
+faster than before. To this end, multiple use cases are benefitting from it. The negative aspect of this progress and
+wide adoption of generative AI is deepfakes. Audio/image/video of an individual(s) is manipulated using
+generative methods without permission from the individual(s). This can make them be shown saying or doing
+something, which they may not have done in real. These unethically manipulated videos, popularly known as
+deepfakes have wide repercussions and negative effects on society in the form of the deepfakes’ potential in
+spreading disinformation and misinformation. Deepfakes unfortunately are used for trolling online as well.
+Authentication systems such as video KYC (Know Your Customer) are also not resilient as often face recognition
+and verification systems are deceived when high-quality deepfakes are used. To this end, it is important for
+platforms and systems to be able to identify if manipulation has been performed on a media. These systems,
+which detect and analyse the deepfakes are referred to as deepfakes detectors.
 
+The 1M-Deepfakes Detection Challenge comprises of two sub-tasks:
 
-## Call for Contributions
+1. *Deepfake Detection* – Given an audio-visual sample containing a single subject, the task is to identify if the
+video is a deepfake or real.
 
-### Full Workshop Papers
+2. *Deepfakes Temporal Localisation* – Given an audio-visual sample containing a single subject, the task is to find
+out the frames (time stamps) in which the manipulation is done. The assumption here is that from the perspective
+of spreading misinformation.
 
-The 1st International Workshop on Responsible Affective computing (REACT 2023) at <a href="https://www.acmmm2023.org/" target="_blank">ACM-MM 2023</a> (track for Multimodal and Responsible Affective Computing) aims to encourage and highlight novel strategies for affective phenomena estimation and prediction with a focus on robustness and accuracy in extended parameter spaces, spatially, temporally, spatio-temporally and most importantly Responsibly. This is expected to be achieved by applying novel neural network architectures, incorporating anatomical insights and constraints, introducing new and challenging datasets, and exploiting multi-modal training. Specifically, the workshop topics include (but are not limited to):
+The dataset used for the two tasks above is the recently proposed AV-Deepfake1M. The database contains
+over a million data points, the Train, Validation and Test sets distribution is shown below.
 
-- Privacy preserving large scale data collection and annotation for Affective Computing.
-- Privacy preserving large scale emotion recognition in the wild.
-- Responsible AI for emotion recognition.
-- Privacy preserving fusion techniques for audio-visual/physiological signals.
-- Privacy preserving localization and identification of salient affect signals.
-- Privacy preserving applications in healthcare domain (mental health, rehab robotics, medical imaging etc). 
-- Affective Computing Applications in education and entertainment.
-- Privacy concerns in large scale data collection.
-- Explainable AI in affective computing.
-- Responsible Personalization of affective phenomena estimators with low data regime.
-- Bias in affective computing data (e.g. lack of multi-cultural datasets).
-- Algorithmic bias and fairness in affective computing.
+![stats](/2024/img/stats.jpg)
 
-<br>
-
-We will be accepting the submission of full unpublished and original papers. These papers will be peer-reviewed via a double-blind process, and will be published in the official workshop proceedings and be presented at the workshop itself. 
-
-#### Submission 
-We invite authors to submit unpublished papers (6 to 8 page <a href="https://www.acmmm2023.org/instructions/" target="_blank">ACM-MM format</a>) to our workshop, to be presented at a oral/poster session upon acceptance. All submissions will go through a double-blind review process. All contributions must be submitted (along with supplementary materials, if any) at this <a href="https://cmt3.research.microsoft.com/REACT2023/Submission/Index" target="_blank">CMT link</a>. Accepted papers will be published in the official ACM-MM Workshops proceedings.
-
-#### Note
-Authors of previously rejected main conference submissions are also welcome to submit their work to our workshop. When doing so, you must submit the previous reviewers' comments (named as previous\_reviews.pdf) and a letter of changes (named as letter\_of\_changes.pdf) as part of your supplementary materials to clearly demonstrate the changes made to address the comments made by previous reviewers.
 ## Important Dates
-
 
 <table class="table table-striped">
     <tbody>
         <tr>
-          <td>Paper Submission Deadline</td>
-          <td><s>July 15, 2023</s> July 23, 2023 (12:00 Pacific time)</td>
+          <td>Train and validation set release</td>
+          <td>March 5, 2024</td>
         </tr>
         <tr>
-          <td>Notification to Authors</td>
-          <td>Aug 4, 2023</td>
+          <td>Test set release</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>Paper Submission Deadline</td>
+          <td>June 14, 2024</td>
+        </tr>
+        <tr>
+          <td>Final Decision</td>
+          <td>July 15, 2024</td>
         </tr>
         <tr>
           <td>Camera-Ready Deadline</td>
-          <td>Aug 11, 2023 (12:00 Pacific time)</td>
+          <td>July 29, 2024</td>
         </tr>
     </tbody>
 </table>
 
-## Workshop Schedule
-All times are in Ottawa time zone (GMT-4).
-<table class="table table-striped">
-    <tbody>
-        <tr>
-          <td>1:30pm - 1:40pm</td>
-          <td>Opening and welcome</td>
-        </tr>
-        <tr>
-          <td>1:40pm - 2:40pm</td>
-          <td>Keynote 1: Fairness for Affective and Wellbeing Computing by Prof. Hatice Gunes</td>
-        </tr>
-        <tr>
-          <td>2:40pm - 3:00pm</td>
-          <td>Paper 1: 	Generalised Bias Mitigation for Personality Computing </td>
-        </tr>
-      <tr>
-          <td>3:00pm - 3:15pm</td>
-          <td>Break</td>
-        </tr>
-      <tr>
-          <td>3:15pm - 4:15pm</td>
-          <td>Keynote 2: Sentiments and Bias in Automated Decision Making by Prof. Jesse Hoey</td>
-        </tr>
-       <tr>
-          <td>4:15pm - 4:35pm</td>
-          <td>Paper 2: EfficienTransNet: An Automated Chest X-ray Report Generation Paradigm </td>
-        </tr>
-       <tr>
-          <td>4:35pm - 4:55pm</td>
-          <td>Panel</td>
-        </tr>
-        <tr>
-          <td>4:55pm - 5:00pm</td>
-          <td>Closing Remarks</td>
-        </tr>
-    </tbody>
-</table>
+## Program Schedule
+
+TBD
 
 ## Invited Keynote Speakers
 
-<div class="row">
-    <div class="col-3">
-        <a href="https://cs.uwaterloo.ca/~jhoey/">
-            <img class="speaker-pic pull-right" src="/2023/img/people/jh.jpg" />
-        </a>
-    </div>
-    <div class="col">
-        <a href="https://cs.uwaterloo.ca/~jhoey/"><span class="fs-3">Jesse Hoey</span></a>
-        <h6 class="fs-5">University of Waterloo</h6>
-      Dr. Jesse Hoey is a Professor in the David R. Cheriton School of Computer Science at the University of Waterloo, where he leads the Health Informatics group and the Computational Health Informatics Laboratory (CHIL). He is an Adjunct Scientist at the Toronto Rehabilitation Institute, and a Faculty Affiliate of the Vector Institute, both Toronto, Canada. Dr. Hoey holds a Ph.D degree (2004) in computer science from the University of British Columbia. He has published over one hundred peer reviewed scientific papers in high impact journals and conferences. He is Editor-in-Chief for the IEEE Transactions on Affective Computing.
-    </div>
-</div>
-<br>
-<br>
-<div class="row">
-    <div class="col-3">
-        <a href="https://www.cl.cam.ac.uk/~hg410/">
-            <img class="speaker-pic pull-right" src="/2023/img/people/hg.jpg" />
-        </a>
-    </div>
-    <div class="col">
-        <a href="https://www.cl.cam.ac.uk/~hg410/"><span class="fs-3">Hatice Gunes</span></a>
-        <h6 class="fs-5">University of Cambridge</h6>
-        Prof. Hatice Gunes is a Professor of Affective Intelligence and Robotics at University of Cambridge's Department of Computer Science and Technology. Her research interests are in the areas of affective computing and social signal processing that lie at the crossroad of multiple disciplines including, computer vision, signal processing, machine learning, multimodal interaction and human-robot interaction. Her current research vision is to embrace the challenges present in the area of health and empower the lives of people through creating socio-emotionally intelligent technology. This vision has been supported by three new projects funded by prestigious and competitive grants via the WorkingAge Project funded by the EU H2020 Programme, the EPSRC Fellowship Programme and the Turing Faculty Fellowship Programme.
-    </div>
-</div>
-
-<br>
-
-<style>
-    .speaker-pic {
-        width: 250px;
-        height: 250px;
-    }
-</style>
+TBD
 
 ## Organizers
 
-<div class="container p-0">
-  <div class="row">
-    <div class="col">
-        <a href="https://staffportal.curtin.edu.au/staff/profile/view/shreya-ghosh-a2f9d3ca/">
-            <img class="organizer-pic" src="/2023/img/people/ShreyaGhosh.jpg"/> 
-        </a>
-        <div class="people-name orgnizer-people-name">
-            <a href="https://staffportal.curtin.edu.au/staff/profile/view/shreya-ghosh-a2f9d3ca/">Shreya Ghosh</a>
-            <h6 class="uni-name">Curtin University</h6>
-        </div>
-    </div>
-    <div class="col">
-        <a href="https://iitrpr.ac.in/cse/abhinavdhall">
-            <img class="organizer-pic" src="/2023/img/people/AbhinavDhall.jpg">
-        </a>
-        <div class="people-name orgnizer-people-name">
-            <a href="https://iitrpr.ac.in/cse/abhinavdhall">Abhinav Dhall</a>
-            <h6 class="uni-name">Indian Institute of Technology Ropar</h6>
-        </div>
-    </div>
-    <div class="col">
-        <a href="http://eecs.qmul.ac.uk/people/profiles/kolliasdimitrios.html">
-            <img class="organizer-pic" src="/2023/img/people/DimitriosKollias.jpg">
-        </a>
-        <div class="people-name orgnizer-people-name">
-            <a href="http://eecs.qmul.ac.uk/people/profiles/kolliasdimitrios.html">Dimitrios Kollias</a>
-            <h6 class="uni-name">Queen Mary University of London</h6>
-        </div>
-    </div>
-    <div class="col">
-        <a href="https://researchprofiles.canberra.edu.au/en/persons/roland-goecke">
-            <img class="organizer-pic" src="/2023/img/people/RolandGoetcke.jpg">
-        </a>
-        <div class="people-name orgnizer-people-name">
-            <a href="https://researchprofiles.canberra.edu.au/en/persons/roland-goecke">Roland Goecke</a>
-            <h6 class="uni-name">University of Canberra</h6>
-        </div>
-    </div>
-    <div class="col">
-        <a href="https://staffportal.curtin.edu.au/staff/profile/view/tom-gedeon-5e48a1fd/">
-            <img class="organizer-pic" src="/2023/img/people/TomGedeon.jpg">
-        </a>
-        <div class="people-name orgnizer-people-name">
-            <a href="https://staffportal.curtin.edu.au/staff/profile/view/tom-gedeon-5e48a1fd/">Tom Gedeon</a>
-            <h6 class="uni-name">Curtin University</h6>
-        </div>
-    </div>
-  </div>
-</div>
+- Zhixi Cai, Monash University
+- Abhinav Dhall, Flinders University
+- Shreya Ghosh, Curtin University
+- Munawar Hayat, Qualcomm/Monash University
+- Dimitrios Kollias, Queen Mary University of London
+- Kalin Stefanov, Monash University
+- Usman Tariq, American University of Sharjah
 
-<style>
-.organizer-pic {
-    width: 200px;
-    height: 200px;
-}
-.uni-name {
-    max-width: 200px
-}
-
-.people-name {
-    max-width: 200px;
-} 
-
-.orgnizer-people-name {
-    text-align: center;
-}
-
-.speaker-pic, .organizer-pic {
-    border-radius: 50%;
-}
-
-.banner-pic {
-    width: 900px;
-    height: auto;
-}
-</style>
+(The list is ranked based on the surname)
 
 ## Program Committee (To be updated)
 
-<div class="container p-0">
-    <div class="row row-cols-auto">  
-      <div class="col-2 people-name"><a target="_blank" href="https://www.uu.nl/staff/AASalah">Albert Ali Salah</a><h6>Utrecht University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://www.uu.nl/staff/HKaya">Heysem Kaya</a><h6>Utrecht University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://nms.kcl.ac.uk/oya.celiktutan/">Oya Celiktutan</a><h6>Kings College London</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://www.kcl.ac.uk/people/nicholas-cummins">Nicholas Cummins</a><h6>Kings College London</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://www.tanayag.com/">Tanaya Guha</a><h6>University of Glasgow</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="http://www.ksikka.com/">Karan Sikka</a><h6>SRI International</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://lmi.fe.uni-lj.si/en/vitomir-struc/">Vitomir Struc</a><h6>University of Ljubljana</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://scholar.google.com/citations?user=czQmcBQAAAAJ&hl=en">Usman Tariq</a><h6>American University of Sharjah</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://profiles.ucsf.edu/sanjay.ghosh">Sanjay Ghosh</a><h6>University of California San Francisco</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://profile.controlnet.space/">Zhixi Cai</a><h6>Monash University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://scholar.google.co.in/citations?user=_gpSvvwAAAAJ&hl=en">Garima Sharma</a><h6>Monash University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://www.linkedin.com/in/parul-gupta-014a72127/?originalSubdomain=in">Parul Gupta</a><h6>Monash University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://research.monash.edu/en/persons/kalin-stefanov">Kalin Stefanov</a><h6>Monash University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://cecc.anu.edu.au/people/md-zakir-hossain">Zakir Hossian</a><h6>Curtin University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://hasan-rakibul.github.io/">Rakibul Hasan</a><h6>Curtin University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://sites.google.com/view/chayan-mondal/home">Chayan Mondal</a><h6>Curtin University</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://www.linkedin.com/in/dr-neeru-dubey-139808171/">Neeru Dubey</a><h6>Salesken</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://www.linkedin.com/in/descentis/">Amit Verma</a><h6>CoreCLM</h6></div>
-    </div>
-</div>
+TBD
 
-<br>
+## Contact
 
-#### Website
-
-<div class="container p-0">
-    <div class="row row-cols-auto">
-        <div class="col-2 people-name"><a target="_blank" href="https://staffportal.curtin.edu.au/staff/profile/view/shreya-ghosh-a2f9d3ca/">Shreya Ghosh</a><h6>Curtin University</h6></div>
-        <div class="col-2 people-name"><a target="_blank" href="https://profile.controlnet.space/">Zhixi Cai</a><h6>Monash University</h6></div>
-    </div>
-</div>
-
-Please contact me if you have any questions.
-<br>
 Email: shreya.ghosh@curtin.edu.au
-
-Image Source: SoftBank Robotics and Inside out 
+ 
