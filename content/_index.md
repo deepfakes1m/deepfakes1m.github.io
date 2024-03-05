@@ -39,11 +39,6 @@ video is a deepfake or real.
 out the frames (time stamps) in which the manipulation is done. The assumption here is that from the perspective
 of spreading misinformation.
 
-The dataset used for the two tasks above is the recently proposed AV-Deepfake1M. The database contains
-over a million data points, the Train, Validation and Test sets distribution is shown below.
-
-![stats](stats.jpg)
-
 ## Important Dates
 
 <table class="table table-striped">
