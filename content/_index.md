@@ -89,8 +89,6 @@ TBD
 - Kalin Stefanov, Monash University
 - Usman Tariq, American University of Sharjah
 
-(The list is ranked based on the surname)
-
 ## Program Committee (To be updated)
 
 TBD
