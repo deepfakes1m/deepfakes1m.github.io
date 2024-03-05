@@ -111,7 +111,6 @@ TBD
 <!--       <div class="col-2 people-name"><a target="_blank" href="https://www.linkedin.com/in/dr-neeru-dubey-139808171/">Neeru Dubey</a><h6>Salesken</h6></div> -->
 <!--       <div class="col-2 people-name"><a target="_blank" href="https://www.linkedin.com/in/descentis/">Amit Verma</a><h6>CoreCLM</h6></div> -->
     </div>
-</div>
 
 <br>
 
