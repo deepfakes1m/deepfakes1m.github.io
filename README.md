@@ -1,2 +1,2 @@
-# react-ws.github.io
-Main page for REACT workshop.
+# deepfakes1m.github.io
+Main page for 1M Deepfakes Detection Challenge.
