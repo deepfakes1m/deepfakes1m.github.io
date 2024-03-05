@@ -94,10 +94,10 @@ TBD
 <!--       <div class="col-2 people-name"><a target="_blank" href="https://www.kcl.ac.uk/people/nicholas-cummins">Nicholas Cummins</a><h6>Kings College London</h6></div> -->
 <!--       <div class="col-2 people-name"><a target="_blank" href="https://www.tanayag.com/">Tanaya Guha</a><h6>University of Glasgow</h6></div> -->
 <!--       <div class="col-2 people-name"><a target="_blank" href="http://www.ksikka.com/">Karan Sikka</a><h6>SRI International</h6></div> -->
-      <div class="col-2 people-name"><a target="_blank" href="https://lmi.fe.uni-lj.si/en/vitomir-struc/">Vitomir Struc</a><h6>University of Ljubljana</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://scholar.google.com/citations?user=nRrdjtwAAAAJ&hl=en&oi=ao">Yamagishi Junichi</a><h6>National Institute of Informatics, Tokyo</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://dash-lab.github.io/About/">Simon Woo</a><h6>SKKU</h6></div>
-      <div class="col-2 people-name"><a target="_blank" href="https://scholar.google.com/citations?user=5lGnNQoAAAAJ&hl=en">Subrahmanyam Murala</a><h6>Trinity College Dublin</h6></div>
+      <div class="col-2 people-name">Vitomir Struc<h6>University of Ljubljana</h6></div>
+      <div class="col-2 people-name">Yamagishi Junichi<h6>National Institute of Informatics, Tokyo</h6></div>
+      <div class="col-2 people-name">Simon Woo<h6>SKKU</h6></div>
+      <div class="col-2 people-name">Subrahmanyam Murala<h6>Trinity College Dublin</h6></div>
       
 <!--       <div class="col-2 people-name"><a target="_blank" href="https://scholar.google.com/citations?user=czQmcBQAAAAJ&hl=en">Usman Tariq</a><h6>American University of Sharjah</h6></div> -->
 <!--       <div class="col-2 people-name"><a target="_blank" href="https://profiles.ucsf.edu/sanjay.ghosh">Sanjay Ghosh</a><h6>University of California San Francisco</h6></div> -->
