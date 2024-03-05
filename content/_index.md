@@ -7,7 +7,7 @@ date: 2024-03-05T00:06:56+08:00
 <div class="row">
   <div>
     <p><center>
-        <img class="img-fluid banner-pic" src="https://raw.githubusercontent.com/ControlNet/AV-Deepfake1M/master/assets/teaser.png">
+        <img class="img-fluid banner-pic" src="teaser.png">
     </center></p>
     <!-- <p><center>
       Full day, <font size="3" color="red"> Oct 2023</font> (Full-day)
