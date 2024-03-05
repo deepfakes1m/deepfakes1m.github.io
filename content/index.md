@@ -102,3 +102,34 @@ Zhixi Cai, zhixi.cai@monash.edu
 Kalin Stefanov, kalin.stefanov@monash.edu
 Shreya Ghosh, shreya.ghosh@curtin.edu.au
  
+
+<style>
+    .speaker-pic {
+        width: 250px;
+        height: 250px;
+    }
+    .organizer-pic {
+        width: 200px;
+        height: 200px;
+    }
+    .uni-name {
+        max-width: 200px
+    }
+
+    .people-name {
+        max-width: 200px;
+    } 
+
+    .orgnizer-people-name {
+        text-align: center;
+    }
+
+    .speaker-pic, .organizer-pic {
+        border-radius: 50%;
+    }
+
+    .banner-pic {
+        width: 900px;
+        height: auto;
+    }
+</style>
