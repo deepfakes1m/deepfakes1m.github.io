@@ -86,15 +86,10 @@ TBD
 
 ## Program Committee (To be updated)
 
-<div class="container p-0">
-    <div class="row row-cols-auto">
-      <div class="col-2 people-name">Vitomir Struc<h6>University of Ljubljana</h6></div>
-      <div class="col-2 people-name">Yamagishi Junichi<h6>National Institute of Informatics, Tokyo</h6></div>
-      <div class="col-2 people-name">Simon Woo<h6>SKKU</h6></div>
-      <div class="col-2 people-name">Subrahmanyam Murala<h6>Trinity College Dublin</h6></div>
-    </div>
-</div>
-<br>
+- Vitomir Struc, University of Ljubljana
+- Yamagishi Junichi, National Institute of Informatics, Tokyo
+- Simon Woo, SKKU
+- Subrahmanyam Murala, Trinity College Dublin
 
 ## Contact
 
