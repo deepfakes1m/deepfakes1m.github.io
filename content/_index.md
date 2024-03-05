@@ -86,7 +86,30 @@ TBD
 
 ## Program Committee (To be updated)
 
-TBD
+<div class="container p-0">
+    <div class="row row-cols-auto">  
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://www.uu.nl/staff/AASalah">Albert Ali Salah</a><h6>Utrecht University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://www.uu.nl/staff/HKaya">Heysem Kaya</a><h6>Utrecht University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://nms.kcl.ac.uk/oya.celiktutan/">Oya Celiktutan</a><h6>Kings College London</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://www.kcl.ac.uk/people/nicholas-cummins">Nicholas Cummins</a><h6>Kings College London</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://www.tanayag.com/">Tanaya Guha</a><h6>University of Glasgow</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="http://www.ksikka.com/">Karan Sikka</a><h6>SRI International</h6></div> -->
+      <div class="col-2 people-name"><a target="_blank" href="https://lmi.fe.uni-lj.si/en/vitomir-struc/">Vitomir Struc</a><h6>University of Ljubljana</h6></div>
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://scholar.google.com/citations?user=czQmcBQAAAAJ&hl=en">Usman Tariq</a><h6>American University of Sharjah</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://profiles.ucsf.edu/sanjay.ghosh">Sanjay Ghosh</a><h6>University of California San Francisco</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://profile.controlnet.space/">Zhixi Cai</a><h6>Monash University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://scholar.google.co.in/citations?user=_gpSvvwAAAAJ&hl=en">Garima Sharma</a><h6>Monash University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://www.linkedin.com/in/parul-gupta-014a72127/?originalSubdomain=in">Parul Gupta</a><h6>Monash University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://research.monash.edu/en/persons/kalin-stefanov">Kalin Stefanov</a><h6>Monash University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://cecc.anu.edu.au/people/md-zakir-hossain">Zakir Hossian</a><h6>Curtin University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://hasan-rakibul.github.io/">Rakibul Hasan</a><h6>Curtin University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://sites.google.com/view/chayan-mondal/home">Chayan Mondal</a><h6>Curtin University</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://www.linkedin.com/in/dr-neeru-dubey-139808171/">Neeru Dubey</a><h6>Salesken</h6></div> -->
+<!--       <div class="col-2 people-name"><a target="_blank" href="https://www.linkedin.com/in/descentis/">Amit Verma</a><h6>CoreCLM</h6></div> -->
+    </div>
+</div>
+
+<br>
 
 ## Contact
 
