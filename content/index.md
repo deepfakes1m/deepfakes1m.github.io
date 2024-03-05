@@ -1,5 +1,5 @@
 ---
-title: "1M-Deepfakes Detection Challenge - ACM Multimedia 2024"
+title: "1M-Deepfakes Detection Challenge - ACM MM 2024"
 date: 2024-03-05T00:06:56+08:00
 ---
 
