@@ -93,7 +93,7 @@ TBD
       <div class="col-2 people-name">Simon Woo<h6>SKKU</h6></div>
       <div class="col-2 people-name">Subrahmanyam Murala<h6>Trinity College Dublin</h6></div>
     </div>
-
+</div>
 <br>
 
 ## Contact
