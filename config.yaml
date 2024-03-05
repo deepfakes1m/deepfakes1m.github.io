@@ -20,6 +20,7 @@ paige:
     style: "pills" # Must be "links" or "pills"
   search:
     hide_page: true
+  style: "light"
 
 # languages:
 #   en:
