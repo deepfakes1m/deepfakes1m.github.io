@@ -42,7 +42,7 @@ of spreading misinformation.
 The dataset used for the two tasks above is the recently proposed AV-Deepfake1M. The database contains
 over a million data points, the Train, Validation and Test sets distribution is shown below.
 
-![stats](/2024/img/stats.jpg)
+![stats](stats.jpg)
 
 ## Important Dates
 
