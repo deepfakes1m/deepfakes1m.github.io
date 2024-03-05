@@ -1,6 +1,6 @@
-baseURL: "https://react-ws.github.io/"
+baseURL: "https://deepfakes1m.github.io/"
 languageCode: "en-us"
-title: "REACT: REsponsible Affective CompuTing"
+title: "1M-Deepfakes Detection Challenge - ACM Multimedia 2024"
 
 enableEmoji: true
 
