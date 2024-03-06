@@ -39,6 +39,8 @@ video is a deepfake or real.
 out the frames (time stamps) in which the manipulation is done. The assumption here is that from the perspective
 of spreading misinformation.
 
+The dataset used for the two tasks above is the recently proposed AV-Deepfake1M ([Arxiv](http://arxiv.org/abs/2311.15308), [GitHub](https://github.com/ControlNet/AV-Deepfake1M)).
+
 ## Important Dates
 
 <table class="table table-striped">
