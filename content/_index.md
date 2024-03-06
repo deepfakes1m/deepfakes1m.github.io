@@ -180,7 +180,8 @@ TBD
 - Yamagishi Junichi, National Institute of Informatics, Tokyo
 - Simon Woo, Sungkyunkwan University
 - Subrahmanyam Murala, Trinity College Dublin
-- Siwei Lyu, State University of New York System
+- Siwei Lyu, Sunny Buffalo
+- Jyoti Joshi, Kroop AI
 
 ## Contact
 
