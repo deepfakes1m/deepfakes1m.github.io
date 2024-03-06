@@ -149,11 +149,11 @@ TBD
     height: 200px;
 }
 .uni-name {
-    max-width: 200px
+    max-width: 100px
 }
 
 .people-name {
-    max-width: 200px;
+    max-width: 100px;
 } 
 
 .orgnizer-people-name {
