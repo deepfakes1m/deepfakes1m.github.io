@@ -12,8 +12,8 @@
 <div class="hero min-h-screen bg-base-100">
     <div class="hero-content text-center">
         <div class="max-w-4xl">
-            <h1 class="text-5xl font-bold">1M-Deepfakes Detection Challenge</h1>
-            <p class="text-xl py-6">ACM Multimedia 2024, Melbourne</p>
+            <h1 class="text-5xl font-bold">{TITLE}</h1>
+            <p class="text-xl py-6"><a href="https://2024.acmmm.org/" class="link link-info">ACM Multimedia 2024</a>, Melbourne</p>
 
             <div class="flex flex-wrap">
                 <div class="card w-full bg-base-200/50 shadow-xl m-5">

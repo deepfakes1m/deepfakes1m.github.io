@@ -16,9 +16,11 @@
     <div class="ml-4 flex flex-col">
         <div class="flex-1"/>
         <div class="shrink">
-            <a href={url}>
-                <h3 class="text-lg font-bold text-primary">{name}</h3>
-            </a>
+            <h3 class="text-lg font-bold">
+                <a href={url} class="link link-primary">
+                    {name}
+                </a>
+            </h3>
             <p class="text-sm">{affiliation}</p>
         </div>
         <div class="flex-1"/>

@@ -144,7 +144,7 @@
     <br>
 
     <p class="text-2xl text-center">
-        Email: <a href={"mailto:" + EMAIL} class="text-info">
+        Email: <a href={"mailto:" + EMAIL} class="link link-info">
         {EMAIL}
     </a>
     </p>

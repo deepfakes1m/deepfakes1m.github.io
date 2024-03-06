@@ -42,7 +42,7 @@
                     The second stage is the EULA agreement. Please download the dataset <span
                         class="font-bold">EULA</span>
                     and sign it at your end. Please email the signed EULA to
-                    <a class="text-info link" href={"mailto:" + EMAIL}>{EMAIL}</a>
+                    <a class="link link-info" href={"mailto:" + EMAIL}>{EMAIL}</a>
                 </p>
                 <div class="card-actions justify-end">
                     <button class="btn btn-primary"

@@ -7,7 +7,7 @@ import { EMAIL } from "$lib/consts";
         <div class="w-1"/>
         <p class="h-5">1M-Deepfakes Detection Challenge - ACM Multimedia 2024</p>
         <div class="grow"/>
-        <p class="h-5"><a href="mailto:Deepfakes1m@gmail.com" class="text-info font-bold">{EMAIL}</a></p>
+        <p class="h-5"><a href="mailto:Deepfakes1m@gmail.com" class="link link-info font-bold">{EMAIL}</a></p>
         <div class="w-1"/>
     </div>
 </footer>
