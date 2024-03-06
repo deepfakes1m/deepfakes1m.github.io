@@ -75,14 +75,100 @@ TBD
 TBD
 
 ## Organizers
+<div class="container p-0">
+  <div class="row">
+    <div class="col">
+        <a href="https://scholar.google.com/citations?user=-rpiDIoAAAAJ&hl=en">
+            <img class="organizer-pic" src="/2023/img/people/zhixiCai.jpeg"/> 
+        </a>
+        <div class="people-name orgnizer-people-name">
+            <a href="https://scholar.google.com/citations?user=-rpiDIoAAAAJ&hl=en">Zhixi Cai</a>
+            <h6 class="uni-name">Monash University</h6>
+        </div>
+    </div>
+    <div class="col">
+        <a href="https://iitrpr.ac.in/cse/abhinavdhall">
+            <img class="organizer-pic" src="/2023/img/people/AbhinavDhall.jpg">
+        </a>
+        <div class="people-name orgnizer-people-name">
+            <a href="https://iitrpr.ac.in/cse/abhinavdhall">Abhinav Dhall</a>
+            <h6 class="uni-name">Flinders University</h6>
+        </div>
+    </div>
+    <div class="col">
+        <a href="https://staffportal.curtin.edu.au/staff/profile/view/shreya-ghosh-a2f9d3ca/">
+            <img class="organizer-pic" src="/2023/img/people/ShreyaGhosh.jpg"/> 
+        </a>
+        <div class="people-name orgnizer-people-name">
+            <a href="https://staffportal.curtin.edu.au/staff/profile/view/shreya-ghosh-a2f9d3ca/">Shreya Ghosh</a>
+            <h6 class="uni-name">Curtin University</h6>
+        </div>
+    </div>
+    <div class="col">
+        <a href="https://research.monash.edu/en/persons/munawar-hayat">
+            <img class="organizer-pic" src="/2023/img/people/MunawarHayat.jpeg">
+        </a>
+        <div class="people-name orgnizer-people-name">
+            <a href="https://research.monash.edu/en/persons/munawar-hayat">Munawar Hayat</a>
+            <h6 class="uni-name">Qualcomm/Monash University</h6>
+        </div>
+    </div>
+    <div class="col">
+        <a href="http://eecs.qmul.ac.uk/people/profiles/kolliasdimitrios.html">
+            <img class="organizer-pic" src="/2023/img/people/DimitriosKollias.jpg">
+        </a>
+        <div class="people-name orgnizer-people-name">
+            <a href="http://eecs.qmul.ac.uk/people/profiles/kolliasdimitrios.html">Dimitrios Kollias</a>
+            <h6 class="uni-name">Queen Mary University of London</h6>
+        </div>
+    </div>
+    <div class="col">
+        <a href="https://research.monash.edu/en/persons/kalin-stefanov">
+            <img class="organizer-pic" src="/2023/img/people/Kalin.jpeg">
+        </a>
+        <div class="people-name orgnizer-people-name">
+            <a href="[https://researchprofiles.canberra.edu.au/en/persons/roland-goecke](https://research.monash.edu/en/persons/kalin-stefanov)">Kalin Stefanov</a>
+            <h6 class="uni-name">Monash University</h6>
+        </div>
+    </div>
+    <div class="col">
+        <a href="[https://staffportal.curtin.edu.au/staff/profile/view/tom-gedeon-5e48a1fd/](https://sites.google.com/site/usmantariq)">
+            <img class="organizer-pic" src="/2023/img/people/UsmanTarique.jpeg">
+        </a>
+        <div class="people-name orgnizer-people-name">
+            <a href="https://sites.google.com/site/usmantariq">Usman Tariq</a>
+            <h6 class="uni-name">American University of Sharjah</h6>
+        </div>
+    </div>
+  </div>
+</div>
 
-- Zhixi Cai, Monash University
-- Abhinav Dhall, Flinders University
-- Shreya Ghosh, Curtin University
-- Munawar Hayat, Qualcomm/Monash University
-- Dimitrios Kollias, Queen Mary University of London
-- Kalin Stefanov, Monash University
-- Usman Tariq, American University of Sharjah
+<style>
+.organizer-pic {
+    width: 200px;
+    height: 200px;
+}
+.uni-name {
+    max-width: 200px
+}
+
+.people-name {
+    max-width: 200px;
+} 
+
+.orgnizer-people-name {
+    text-align: center;
+}
+
+.speaker-pic, .organizer-pic {
+    border-radius: 50%;
+}
+
+.banner-pic {
+    width: 900px;
+    height: auto;
+}
+</style>
 
 ## Program Committee (To be updated)
 
