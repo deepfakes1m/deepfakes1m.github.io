@@ -2,13 +2,13 @@
     import Organizer from "$lib/components/Organizer.svelte";
     import { EMAIL, TITLE } from "$lib/consts";
 
-    import zhixiAvatar from "$lib/images/zhixi.jpeg";
-    import shreyaAvatar from "$lib/images/shreya.jpg";
-    import abhinavAvatar from "$lib/images/AbhinavDhall.jpg";
-    import munawarAvatar from "$lib/images/MunawarHayat.jpeg";
-    import dimitriosAvatar from "$lib/images/DimitriosKollias.jpg";
-    import kalinAvatar from "$lib/images/Kalin.jpeg";
-    import usmanAvatar from "$lib/images/UsmanTarique.jpeg";
+    import zhixiAvatar from "$lib/assets/zhixi.jpeg";
+    import shreyaAvatar from "$lib/assets/shreya.jpg";
+    import abhinavAvatar from "$lib/assets/AbhinavDhall.jpg";
+    import munawarAvatar from "$lib/assets/MunawarHayat.jpeg";
+    import dimitriosAvatar from "$lib/assets/DimitriosKollias.jpg";
+    import kalinAvatar from "$lib/assets/Kalin.jpeg";
+    import usmanAvatar from "$lib/assets/UsmanTarique.jpeg";
     import MediaQuery from "$lib/components/MediaQuery.svelte";
     import PCMember from "$lib/components/PCMember.svelte";
     import Divider from "$lib/components/Divider.svelte";
@@ -33,7 +33,7 @@
         <div class="flex justify-center">
             <Organizer name="Abhinav Dhall" affiliation="Flinders University"
                        image={abhinavAvatar}
-                       url=""
+                       url="https://sites.google.com/site/dhallabhinav/"
                        className="p-2"
             />
             <Organizer name="Zhixi Cai" affiliation="Monash University"
@@ -48,24 +48,24 @@
             />
             <Organizer name="Munawar Hayat" affiliation="Qualcomm/Monash University"
                        image={munawarAvatar}
-                       url=""
+                       url="https://research.monash.edu/en/persons/munawar-hayat"
                        className="p-2"
             />
         </div>
         <div class="flex justify-center">
             <Organizer name="Dimitrios Kollias" affiliation="Queen Mary University of London"
                        image={dimitriosAvatar}
-                       url=""
+                       url="http://eecs.qmul.ac.uk/people/profiles/kolliasdimitrios.html"
                        className="p-2"
             />
             <Organizer name="Kalin Stefanov" affiliation="Monash University"
                        image={kalinAvatar}
-                       url=""
+                       url="https://research.monash.edu/en/persons/kalin-stefanov"
                        className="p-2"
             />
             <Organizer name="Usman Tariq" affiliation="American University of Sharjah"
                        image={usmanAvatar}
-                       url=""
+                       url="https://www.aus.edu/faculty/usman-tariq"
                        className="p-2"
             />
         </div>
@@ -76,7 +76,7 @@
         <div class="grid justify-center">
             <Organizer name="Abhinav Dhall" affiliation="Flinders University"
                        image={abhinavAvatar}
-                       url=""
+                       url="https://sites.google.com/site/dhallabhinav/"
                        className="p-2"
             />
             <Organizer name="Zhixi Cai" affiliation="Monash University"
@@ -91,22 +91,22 @@
             />
             <Organizer name="Munawar Hayat" affiliation="Qualcomm/Monash University"
                        image={munawarAvatar}
-                       url=""
+                       url="https://research.monash.edu/en/persons/munawar-hayat"
                        className="p-2"
             />
             <Organizer name="Dimitrios Kollias" affiliation="Queen Mary University of London"
                        image={dimitriosAvatar}
-                       url=""
+                       url="http://eecs.qmul.ac.uk/people/profiles/kolliasdimitrios.html"
                        className="p-2"
             />
             <Organizer name="Kalin Stefanov" affiliation="Monash University"
                        image={kalinAvatar}
-                       url=""
+                       url="https://research.monash.edu/en/persons/kalin-stefanov"
                        className="p-2"
             />
             <Organizer name="Usman Tariq" affiliation="American University of Sharjah"
                        image={usmanAvatar}
-                       url=""
+                       url="https://www.aus.edu/faculty/usman-tariq"
                        className="p-2"
             />
         </div>

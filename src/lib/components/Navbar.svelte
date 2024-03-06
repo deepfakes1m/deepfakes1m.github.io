@@ -2,18 +2,17 @@
     import ThemeButton from "$lib/components/ThemeButton.svelte";
     import { onMount } from "svelte";
     import { goto } from "$app/navigation";
+    import { tabNum } from "$lib/store/tab-num";
 
-    export let items: Array<{ name: string, path: string, id: number }>;
-    let active: number | undefined = undefined;
-    $: active;
+    export let items: Array<{ name: string, path: string, id: number, enabled: boolean }>;
 
     function onClick(key: number, path: string) {
-        active = key;
+        tabNum.set(key);
         goto(path);
     }
 
     onMount(() => {
-        active = items.find(item => item.path === window.location.pathname)?.id;
+        tabNum.set(items.find(item => item.path === window.location.pathname)?.id);
     })
 </script>
 
@@ -25,8 +24,9 @@
         <div class="join">
             {#each items as item}
                 <button class="join-item btn"
-                        class:btn-active={active === item.id}
-                        class:btn-primary={active === item.id}
+                        class:btn-disabled={!item.enabled}
+                        class:btn-active={$tabNum === item.id}
+                        class:btn-primary={$tabNum === item.id}
                         on:click={() => onClick(item.id, item.path)}>
                     {item.name}
                 </button>

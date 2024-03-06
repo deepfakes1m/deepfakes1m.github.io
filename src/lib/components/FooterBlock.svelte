@@ -13,7 +13,7 @@ import { EMAIL } from "$lib/consts";
 </footer>
 
 <style>
-    @media (max-width: 800px) {
+    @media (max-width: 1080px) {
         .footer-center {
             display: none;
         }

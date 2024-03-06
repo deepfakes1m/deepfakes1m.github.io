@@ -10,10 +10,12 @@
 	})
 
 	const items = [
-	  { name: 'Home', path: '/', id: 0 },
-	  { name: 'Participate', path: '/participate', id: 1 },
-	  { name: 'Important Dates', path: '/dates', id: 2 },
-	  { name: 'Organization', path: '/organization', id: 3 }
+	  { name: 'About', path: '/', id: 0, enabled: true },
+	  { name: 'Registration', path: '/registration', id: 1, enabled: true },
+	  { name: 'Evaluation', path: '/evaluation', id: 2, enabled: false },
+	  { name: 'Details', path: '/details', id: 3, enabled: false },
+	  { name: 'Important Dates', path: '/dates', id: 4, enabled: true },
+	  { name: 'Organization', path: '/organization', id: 5, enabled: true }
 	]
 </script>
 
