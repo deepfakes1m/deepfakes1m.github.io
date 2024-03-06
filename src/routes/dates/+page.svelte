@@ -18,8 +18,10 @@
     <meta name="description" content="Import dates of {TITLE}"/>
 </svelte:head>
 
+
 <div class="hero min-h-screen bg-base-100">
-    <div class="hero-content text-center">
+    <div class="hero-content text-center flex-wrap">
+    <h1 class="text-4xl font-bold text-center">Important Dates</h1>
         <ul class="timeline timeline-vertical">
             {#each items as item, index}
                 {#if index < currentIndex}
@@ -32,13 +34,15 @@
                             <TickIcon class_name="w-5 h-5 text-primary"/>
                         </div>
                         <div class="timeline-end timeline-box">{item.name}</div>
-                        <hr class="bg-primary"/>
+                        {#if index < items.length - 1}
+                            <hr class="bg-primary"/>
+                        {/if}
                     </li>
                 {:else if index >= currentIndex}
                     <li>
-                        {#if index === currentIndex}
+                        {#if index === currentIndex && index > 0}
                             <hr class="bg-primary"/>
-                        {:else}
+                        {:else if index > 0}
                             <hr/>
                         {/if}
                         <div class="timeline-start timeline-box">{item.date}</div>

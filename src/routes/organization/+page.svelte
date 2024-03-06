@@ -23,9 +23,7 @@
 
     <div class="h-36 w-full"/>
     <!--	Title-->
-    <div>
-        <h1 class="text-4xl font-bold text-center">Organizers</h1>
-    </div>
+    <h1 class="text-4xl font-bold text-center">Organizers</h1>
     <br>
 
     <MediaQuery query="(min-width: 800px)" let:matches>
