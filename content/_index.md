@@ -69,9 +69,9 @@ The dataset used for the two tasks above is the recently proposed AV-Deepfake1M 
 </table>
 
 ## Challenge Registration
-For participating in the challenge, the first step is to register your team. Please follow the [link](https://forms.office.com/r/yiqPZSQ1Ur) and fill it with the required information.
+For participating in the challenge, the first step is to register your team. Please complete the [form](https://forms.office.com/r/yiqPZSQ1Ur) with the required information.
 
-EULA Form [Download Link](https://curtin-my.sharepoint.com/:b:/g/personal/291942d_curtin_edu_au/EZMWi2Z9Ym5Fk6BC1kSJk5sBGPvug_-yvOBv7dY-rFvjvg?e=bx6ijE)
+The second stage is the EULA agreement. Please download the [EULA Form](https://curtin-my.sharepoint.com/:b:/g/personal/291942d_curtin_edu_au/EZMWi2Z9Ym5Fk6BC1kSJk5sBGPvug_-yvOBv7dY-rFvjvg?e=bx6ijE) and sign it at your end. Please email the signed EULA to [abhinav.dhall@flinders.edu.au](abhinav.dhall@flinders.edu.au).
 
 
 ## Program Schedule
