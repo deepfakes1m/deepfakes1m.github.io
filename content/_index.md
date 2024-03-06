@@ -113,6 +113,10 @@ TBD
             <h6 class="uni-name">Qualcomm/Monash University</h6>
         </div>
     </div>
+  </div>
+</div>
+  <div class="container p-1">
+  <div class="row">
     <div class="col">
         <a href="http://eecs.qmul.ac.uk/people/profiles/kolliasdimitrios.html">
             <img class="organizer-pic" src="/2023/img/people/DimitriosKollias.jpg">
