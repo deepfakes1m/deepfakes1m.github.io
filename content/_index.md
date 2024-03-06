@@ -88,8 +88,9 @@ TBD
 
 - Vitomir Struc, University of Ljubljana
 - Yamagishi Junichi, National Institute of Informatics, Tokyo
-- Simon Woo, SKKU
+- Simon Woo, Sungkyunkwan University
 - Subrahmanyam Murala, Trinity College Dublin
+- Siwei Lyu, State University of New York System
 
 ## Contact
 
