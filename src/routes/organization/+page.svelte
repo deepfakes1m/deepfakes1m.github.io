@@ -126,7 +126,7 @@
         <PCMember name="Usman Tariq" affiliation="American University of Sharjah"
                   className="p-2 justify-center"
         />
-        <PCMember name="Yamagishi Junichi" affiliation="National Institute of Informatics, Tokyo"
+        <PCMember name="Yamagishi Junichi" affiliation="National Institute of Informatics, Japan"
                   className="p-2 justify-center"
         />
         <PCMember name="Simon Woo" affiliation="Sungkyunkwan University"
@@ -139,6 +139,9 @@
                   className="p-2 justify-center"
         />
         <PCMember name="Jyoti Joshi" affiliation="Kroop AI"
+                  className="p-2 justify-center"
+        />
+        <PCMember name="Isao Echizen" affiliation="National Institute of Informatics, Japan"
                   className="p-2 justify-center"
         />
     </div>
@@ -163,13 +166,13 @@
         }
     }
 
-    @media (min-width: 640px) and (max-width: 800px) {
+    @media (min-width: 640px) and (max-width: 960px) {
         #pc-member-div {
             @apply grid-cols-4;
         }
     }
 
-    @media (min-width: 800px) {
+    @media (min-width: 960px) {
         #pc-member-div {
             @apply grid-flow-col;
         }
