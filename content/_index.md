@@ -125,7 +125,8 @@ TBD
 - Subrahmanyam Murala, Trinity College Dublin
 - Siwei Lyu, Sunny Buffalo
 - Jyoti Joshi, Kroop AI
-
+- Isao Echizen, National Institute of Informatics, Japan
+  
 ## Contact
 
 - Abhinav Dhall, abhinav.dhall@flinders.edu.au
