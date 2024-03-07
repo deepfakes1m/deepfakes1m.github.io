@@ -1,10 +1,10 @@
-<script>
+<script lang="ts">
     import { onMount } from "svelte";
 
-    export let query;
+    export let query: string;
 
-    let mql;
-    let mqlListener;
+    let mql: MediaQueryList;
+    let mqlListener: (v: MediaQueryListEvent) => void;
     let wasMounted = false;
     let matches = false;
 
@@ -22,16 +22,16 @@
         }
     }
 
-    function addNewListener(query) {
+    function addNewListener(query: string) {
         mql = window.matchMedia(query);
         mqlListener = v => matches = v.matches;
-        mql.addListener(mqlListener);
+        mql.addEventListener("change", mqlListener);
         matches = mql.matches;
     }
 
     function removeActiveListener() {
         if (mql && mqlListener) {
-            mql.removeListener(mqlListener);
+            mql.removeEventListener("change", mqlListener);
         }
     }
 </script>
