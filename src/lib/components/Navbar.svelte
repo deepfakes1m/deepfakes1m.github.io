@@ -16,21 +16,19 @@
     })
 </script>
 
-<div class="fixed w-full">
-    <div class="absolute top-0 right-0 p-10">
-        <ThemeButton style="height: 48px"/>
-    </div>
-    <div class="p-10 flex justify-center">
-        <div class="join">
-            {#each items as item}
-                <button class="join-item btn"
-                        class:btn-disabled={!item.enabled}
-                        class:btn-active={$tabNum === item.id}
-                        class:btn-primary={$tabNum === item.id}
-                        on:click={() => onClick(item.id, item.path)}>
-                    {item.name}
-                </button>
-            {/each}
-        </div>
+<div class="absolute top-0 right-0 p-10">
+    <ThemeButton size="10" className="btn btn-ghost btn-circle"/>
+</div>
+<div class="p-10 flex justify-center">
+    <div class="join">
+        {#each items as item}
+            <button class="join-item btn"
+                    class:btn-disabled={!item.enabled}
+                    class:btn-active={$tabNum === item.id}
+                    class:btn-primary={$tabNum === item.id}
+                    on:click={() => onClick(item.id, item.path)}>
+                {item.name}
+            </button>
+        {/each}
     </div>
 </div>
