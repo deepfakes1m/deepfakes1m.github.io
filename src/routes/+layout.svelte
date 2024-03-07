@@ -26,8 +26,8 @@
     const items = [
         { name: 'About', path: '/', id: 0, enabled: true },
         { name: 'Registration', path: '/registration', id: 1, enabled: true },
-        { name: 'Evaluation', path: '/evaluation', id: 2, enabled: false },
-        { name: 'Details', path: '/details', id: 3, enabled: false },
+        { name: 'Details', path: '/details', id: 2, enabled: false },
+        { name: 'Evaluation', path: '/evaluation', id: 3, enabled: false },
         { name: 'Important Dates', path: '/dates', id: 4, enabled: true },
         { name: 'Organization', path: '/organization', id: 5, enabled: true }
     ]
