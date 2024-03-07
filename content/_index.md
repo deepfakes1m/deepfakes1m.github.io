@@ -71,7 +71,7 @@ The dataset used for the two tasks above is the recently proposed AV-Deepfake1M 
 ## Challenge Registration
 For participating in the challenge, the first step is to register your team. Please complete the [form](https://forms.office.com/r/yiqPZSQ1Ur) with the required information.
 
-The second stage is the EULA agreement. Please download the [EULA Form](docs/EULA2024_AV-DeepfakeDataset.pdf) and sign it at your end. Please email the signed EULA to [abhinav.dhall@flinders.edu.au](abhinav.dhall@flinders.edu.au).
+The second stage is the EULA agreement. Please download the [EULA Form](EULA2024_AV-DeepfakeDataset.pdf) and sign it at your end. Please email the signed EULA to [abhinav.dhall@flinders.edu.au](abhinav.dhall@flinders.edu.au).
 
 
 ## Program Schedule
