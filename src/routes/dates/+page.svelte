@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-    <title>Import Dates</title>
+    <title>Important Dates</title>
     <meta name="description" content="Import dates of {TITLE}"/>
 </svelte:head>
 
