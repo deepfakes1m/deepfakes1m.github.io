@@ -16,7 +16,7 @@
 
 <svelte:head>
     <title>Organizers of {TITLE}</title>
-    <meta name="description" content="About this app"/>
+    <meta name="description" content="Organizers of {TITLE}"/>
 </svelte:head>
 
 <div class="">
