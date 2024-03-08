@@ -35,6 +35,8 @@
 </script>
 
 <style>
+    @import "https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css";
+
     :global(button.btn) {
         @apply rounded-3xl h-full;
     }

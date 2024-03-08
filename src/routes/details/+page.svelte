@@ -1,9 +1,12 @@
 <script>
     import { TITLE } from "$lib/consts";
-    import MediaQuery from "$lib/components/MediaQuery.svelte";
     import datasetStatsLight from "$lib/assets/dataset_stats_light.svg";
     import datasetStatsDark from "$lib/assets/dataset_stats_dark.svg";
     import { dataTheme } from "$lib/store/theme";
+    import { display } from 'mathlifier';
+
+    const displayedMath = display(`Score = \\frac{1}{8}\\sum_{IoU\\in\\{0.5,0.75,0.9,0.95\\}}AP@IoU
+    +\\frac{1}{10}\\sum_{N\\in\\{50,30,20,10,5\\}}AR@N`);
 </script>
 
 <svelte:head>
@@ -59,14 +62,16 @@
                                     if the current video is fake, the path to the original video;
                                     otherwise, the original path in VoxCeleb2.
                                 </li>
-                                <li><span class="font-bold text-primary">split</span>: the name of the current subset.</li>
+                                <li><span class="font-bold text-primary">split</span>: the name of the current subset.
+                                </li>
                                 <li><span class="font-bold text-primary">modify_type</span>:
                                     the type of modifications in different modalities, which can be
                                     ["real", "visual_modified", "audio_modified", "both_modified"]. We evaluate the
                                     deepfake detection (Task 1) performance based on this field.
                                 </li>
                                 <li><span class="font-bold text-primary">audio_model</span>: the audio generation model
-                                    used for generating this video.</li>
+                                    used for generating this video.
+                                </li>
                                 <li><span class="font-bold text-accent">fake_segments</span>:
                                     the timestamps of the fake segments. We evaluate the temporal localization (Task 2)
                                     performance based on this field.
@@ -109,6 +114,9 @@
                         one fake segment in the video.
                     </p>
                     <p>
+                        The metrics for this task is the <span class="font-bold">AUC</span> score.
+                    </p>
+                    <p>
                         The model output should be single confidence number of the input video being <span
                             class="font-bold text-error">fake</span>. The expected submission format is like below.
                     </p>
@@ -130,6 +138,10 @@
                         In this task, we aim to temporal localize the fake segments in the videos with the full-level
                         labels access. The participants in this task can access the frame-level labels, which contains
                         the timestamps of the fake segments.
+                    </p>
+                    <p>
+                        The metrics for this task is AP (Average Precision) and AR (Average Recall).
+                        {@html displayedMath}
                     </p>
                     <p>
                         The model output should be the temporal localization of the fake segments in the input video.
@@ -172,6 +184,7 @@
             @apply w-2/3;
         }
     }
+
     @media (max-width: 800px) {
         div#details-div {
             @apply w-11/12;
