@@ -7,6 +7,7 @@
     import MediaQuery from "$lib/components/MediaQuery.svelte";
     import NavbarMobile from "$lib/components/NavbarMobile.svelte";
     import { dataTheme } from "$lib/store/theme";
+    import { page } from '$app/stores';
 
     onMount(() => {
         themeChange(false)
@@ -26,7 +27,7 @@
     const items = [
         { name: 'About', path: '/', id: 0, enabled: true },
         { name: 'Registration', path: '/registration', id: 1, enabled: true },
-        { name: 'Details', path: '/details', id: 2, enabled: false },
+        { name: 'Details', path: '/details', id: 2, enabled: true },
         { name: 'Evaluation', path: '/evaluation', id: 3, enabled: false },
         { name: 'Important Dates', path: '/dates', id: 4, enabled: true },
         { name: 'Organization', path: '/organization', id: 5, enabled: true }
@@ -53,7 +54,9 @@
 
 <MediaQuery query="(min-width: 800px)" let:matches>
     {#if matches}
-        <div class="fixed w-full" id="navbar-div">
+        <div class="fixed w-full" id="navbar-div"
+             class:fixed={'/details' !== $page.url.pathname}
+        >
             <Navbar items={items}/>
         </div>
     {/if}
