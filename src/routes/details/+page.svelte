@@ -19,7 +19,7 @@
     <br>
 
     <div class="flex justify-center">
-        <div class="flex flex-col w-2/3">
+        <div class="flex flex-col" id="details-div">
 
             <div class="card w-full bg-base-200 shadow-xl">
                 <div class="card-body">
@@ -165,3 +165,16 @@
     <br>
 
 </div>
+
+<style>
+    @media (min-width: 800px) {
+        div#details-div {
+            @apply w-2/3;
+        }
+    }
+    @media (max-width: 800px) {
+        div#details-div {
+            @apply w-11/12;
+        }
+    }
+</style>
