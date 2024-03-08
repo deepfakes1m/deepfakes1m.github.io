@@ -66,7 +66,7 @@
                                     deepfake detection (Task 1) performance based on this field.
                                 </li>
                                 <li><span class="font-bold text-primary">audio_model</span>: the audio generation model
-                                    used for generating this video</li>
+                                    used for generating this video.</li>
                                 <li><span class="font-bold text-accent">fake_segments</span>:
                                     the timestamps of the fake segments. We evaluate the temporal localization (Task 2)
                                     performance based on this field.
@@ -78,10 +78,10 @@
                                     the timestamps of the fake segments in visual modality.
                                 </li>
                                 <li><span class="font-bold text-primary">video_frames</span>: the number of frames in
-                                    the video
+                                    the video.
                                 </li>
                                 <li><span class="font-bold text-primary">audio_frames</span>: the number of frames in
-                                    the audio
+                                    the audio.
                                 </li>
                             </ul>
                         </div>
