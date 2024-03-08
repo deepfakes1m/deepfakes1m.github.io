@@ -42,6 +42,50 @@
                         determined by the performance on the test set, and required to submit the code for the final
                         checking.
                     </p>
+
+                    <div class="collapse bg-base-300">
+                        <input type="checkbox"/>
+                        <div class="collapse-title text-xl font-medium">
+                            Metadata Details
+                        </div>
+                        <div class="collapse-content">
+                            The metadata is a json file for each subset (train, val), which is a list of dictionaries.
+                            The fields in the dictionary are as follows. Please note the
+                            <span class="text-bold text-accent">frame-level labels</span> are only available in temporal
+                            localization (Task 2).
+                            <ul>
+                                <li><span class="font-bold text-primary">file</span>: the path to the video file.</li>
+                                <li><span class="font-bold text-primary">original</span>:
+                                    if the current video is fake, the path to the original video;
+                                    otherwise, the original path in VoxCeleb2.
+                                </li>
+                                <li><span class="font-bold text-primary">split</span>: the name of the current subset.</li>
+                                <li><span class="font-bold text-primary">modify_type</span>:
+                                    the type of modifications in different modalities, which can be
+                                    ["real", "visual_modified", "audio_modified", "both_modified"]. We evaluate the
+                                    deepfake detection (Task 1) performance based on this field.
+                                </li>
+                                <li><span class="font-bold text-primary">audio_model</span>: the audio generation model
+                                    used for generating this video</li>
+                                <li><span class="font-bold text-accent">fake_segments</span>:
+                                    the timestamps of the fake segments. We evaluate the temporal localization (Task 2)
+                                    performance based on this field.
+                                </li>
+                                <li><span class="font-bold text-accent">audio_fake_segments</span>:
+                                    the timestamps of the fake segments in audio modality.
+                                </li>
+                                <li><span class="font-bold text-accent">visual_fake_segments</span>:
+                                    the timestamps of the fake segments in visual modality.
+                                </li>
+                                <li><span class="font-bold text-primary">video_frames</span>: the number of frames in
+                                    the video
+                                </li>
+                                <li><span class="font-bold text-primary">audio_frames</span>: the number of frames in
+                                    the audio
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -49,12 +93,12 @@
 
             <div class="card w-full bg-base-200 shadow-xl">
                 <div class="card-body">
-                    <h2 class="card-title">Task 1: Video-Level Deepfake Detection</h2>
+                    <h2 class="card-title">Task 1: Deepfake Detection with Limited Label Access</h2>
                     <p>
                         In this task, we aim to detect the deepfake videos with the video-level labels access.
                         Although the dataset containing the full annotation of the timestamps of the fake segments
                         (i.e. frame-level labels), the participants in this task <span class="font-bold">can only</span>
-                        access the video-level label.
+                        use the video-level label to train the model.
                     </p>
                     <p>
                         <span class="font-bold text-success">Real</span>: The video is real, which means there is no
