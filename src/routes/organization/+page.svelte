@@ -32,7 +32,7 @@
     <h1 class="text-4xl font-bold text-center">Organizers</h1>
     <br>
 
-    <MediaQuery query="(min-width: 800px)" let:matches>
+    <MediaQuery query="(min-width: 830px)" let:matches>
         {#if matches}
             <div class="flex justify-center">
                 <Organizer name="Abhinav Dhall" affiliation="Flinders University"
@@ -73,10 +73,7 @@
                            className="p-2"
                 />
             </div>
-        {/if}
-    </MediaQuery>
-    <MediaQuery query="(max-width: 800px)" let:matches>
-        {#if matches}
+        {:else}
             <div class="grid justify-center">
                 <Organizer name="Abhinav Dhall" affiliation="Flinders University"
                            image={abhinavAvatar}
@@ -157,6 +154,7 @@
         {EMAIL}
     </a>
     </p>
+    <br>
 </div>
 
 <style>

@@ -3,8 +3,10 @@ import { EMAIL } from "$lib/consts";
 import { page } from '$app/stores';
 </script>
 
-<footer class="footer footer-center p-4 bg-base-200 text-base-content bottom-0"
-    class:absolute={'/details' !== $page.url.pathname}
+<footer class="footer footer-center p-4 bg-base-200 text-base-content bottom-0 fixed h-12"
+        class:details-footer={($page.url.pathname === '/details')}
+        class:org-footer={($page.url.pathname === '/organization')}
+        class:other-footer={($page.url.pathname !== '/details' && $page.url.pathname !== '/organization')}
 >
     <div class="flex w-full">
         <div class="w-1"/>
@@ -16,9 +18,25 @@ import { page } from '$app/stores';
 </footer>
 
 <style>
-    @media (max-width: 1080px) {
-        .footer-center {
-            display: none;
+
+    @media (max-width: 800px) {
+        footer {
+            @apply invisible;
+        }
+
+        :global(div.footer-pad) {
+
         }
     }
+
+    /*@media (min-width: 800px) and (min-height: 870px)  {*/
+    /*    footer.org-footer {*/
+    /*        @apply absolute;*/
+    /*    }*/
+    /*}*/
+
+    /*footer.other-footer {*/
+    /*    @apply absolute;*/
+    /*}*/
+
 </style>
