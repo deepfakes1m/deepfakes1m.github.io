@@ -140,7 +140,7 @@
                         the timestamps of the fake segments.
                     </p>
                     <p>
-                        The metrics for this task is AP (Average Precision) and AR (Average Recall).
+                        The metrics for this task are AP (Average Precision) and AR (Average Recall).
                         {@html displayedMath}
                     </p>
                     <p>
