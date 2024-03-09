@@ -120,7 +120,7 @@
     <br>
 
     <div class="grid justify-center" id="pc-member-div">
-        <PCMember name="Usman Tariq" affiliation="American University of Sharjah"
+        <PCMember name="Vitomir Struc" affiliation="University of Ljubljana"
                   className="p-2 justify-center"
         />
         <PCMember name="Yamagishi Junichi" affiliation="National Institute of Informatics, Japan"
