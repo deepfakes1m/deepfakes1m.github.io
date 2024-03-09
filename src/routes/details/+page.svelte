@@ -46,7 +46,7 @@
                         checking.
                     </p>
 
-                    <div class="collapse bg-base-300">
+                    <div class="collapse collapse-arrow bg-base-300">
                         <input type="checkbox"/>
                         <div class="collapse-title text-xl font-medium">
                             Metadata Details
