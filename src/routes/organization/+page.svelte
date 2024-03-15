@@ -141,6 +141,9 @@
         <PCMember name="Isao Echizen" affiliation="National Institute of Informatics, Japan"
                   className="p-2 justify-center"
         />
+        <PCMember name="Shogo Okada" affiliation="JAIST"
+                  className="p-2 justify-center"
+        />
     </div>
 
     <Divider/>
