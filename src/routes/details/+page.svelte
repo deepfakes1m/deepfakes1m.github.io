@@ -168,7 +168,8 @@
             <div class="card w-full bg-base-200 shadow-xl">
                 <div class="card-body">
                     <h2 class="card-title">Frequently Answered Questions</h2>
-                    <p>TBD</p>
+                    <p>Q: Can external data be used in the challenge?</p>
+                    <p>A: Only public external data can be used.</p>
                 </div>
             </div>
 
