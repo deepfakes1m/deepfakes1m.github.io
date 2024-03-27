@@ -17,7 +17,7 @@
 </script>
 
 <div class="absolute top-0 right-0 p-10">
-    <ThemeButton size="10" className="btn btn-ghost btn-circle"/>
+    <ThemeButton className="btn btn-ghost btn-circle"/>
 </div>
 <div class="p-10 flex justify-center">
     <div class="join">

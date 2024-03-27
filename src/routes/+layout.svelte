@@ -29,8 +29,9 @@
         { name: 'Registration', path: '/registration', id: 1, enabled: true },
         { name: 'Details', path: '/details', id: 2, enabled: true },
         { name: 'Evaluation', path: '/evaluation', id: 3, enabled: false },
-        { name: 'Important Dates', path: '/dates', id: 4, enabled: true },
-        { name: 'Organization', path: '/organization', id: 5, enabled: true }
+        { name: 'Call For Papers', path: '/cfp', id: 4, enabled: true },
+        { name: 'Important Dates', path: '/dates', id: 5, enabled: true },
+        { name: 'Organization', path: '/organization', id: 6, enabled: true }
     ]
 </script>
 
@@ -57,7 +58,7 @@
 <MediaQuery query="(min-width: 800px) and (min-height: 720px)" let:matches>
     {#if matches}
         <div class="fixed w-full" id="navbar-div"
-             class:fixed={'/details' !== $page.url.pathname}>
+             class:fixed={$page.url.pathname !== "/details" && $page.url.pathname !== "/cfp"}>
             <Navbar items={items}/>
         </div>
     {/if}
