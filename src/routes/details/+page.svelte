@@ -169,7 +169,7 @@
                 <div class="card-body">
                     <h2 class="card-title">Frequently Answered Questions</h2>
                     <p>Q: Can external data be used in the challenge?</p>
-                    <p>A: Only public external data can be used.</p>
+                    <p>A: Only <span class="font-bold">public</span> external data can be used.</p>
                     <br>
                     <p>Q: How to convert the segments label in metadata to frame-level and video-level labels?</p>
                     <p>A: Code are below.</p>
