@@ -178,7 +178,7 @@
                         <pre><code class="text-warning">{"# frame_label is only for temporal localization task"}</code></pre>
                         <pre><code>{"frame_label = np.zeros(video_frames)"}</code></pre>
                         <pre><code>{"for start, end in segments:"}</code></pre>
-                        <pre><code>{"    frame_label[start * fps: end * fps] = 1"}</code></pre>
+                        <pre><code>{"    frame_label[int(start * fps):int(end * fps)] = 1"}</code></pre>
                         <pre><code class="text-warning">{"# video_label is for both classification and temporal localization task"}</code></pre>
                         <pre><code>{"video_label = len(segments) > 0"}</code></pre>
                     </div>
