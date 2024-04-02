@@ -172,7 +172,7 @@
                     <p>A: Only <span class="font-bold">public</span> external data can be used.</p>
                     <br>
                     <p>Q: How to convert the segments label in metadata to frame-level and video-level labels?</p>
-                    <p>A: Code are below.</p>
+                    <p>A: Codes are below.</p>
                     <div class="mockup-code">
                         <pre><code class="text-warning">{"# real: 0, fake: 1"}</code></pre>
                         <pre><code class="text-warning">{"# frame_label is only for temporal localization task"}</code></pre>
