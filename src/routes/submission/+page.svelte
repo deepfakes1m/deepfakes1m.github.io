@@ -2,6 +2,7 @@
     import { TITLE } from "$lib/consts";
     import { tabNum } from "$lib/store/tab-num";
     import { goto } from "$app/navigation";
+    import { base } from "$app/paths";
 </script>
 
 <svelte:head>
@@ -35,7 +36,7 @@
                     <h2 class="card-title">Submission Steps</h2>
                     <h4 class="font-bold">Step 1 - Benchmark platform:</h4>
                     <p>Sign up your account in Codabench and participate the challenge (please note all team should submit the form and send us the signed
-                        EULA in <a href="/registration" class="link link-info"
+                        EULA in <a href="{base}/registration" class="link link-info"
                             on:click={() => {
                             tabNum.set(1)
                             goto('/registration')
@@ -44,7 +45,7 @@
 
                     <br>
                     <h4 class="font-bold">Step 2 - Prepare predictions:</h4>
-                    <p>Prepare your submission files with the format mentioned in <a href="/details" class="link link-info" on:click={() => {
+                    <p>Prepare your submission files with the format mentioned in <a href="{base}/details" class="link link-info" on:click={() => {
                             tabNum.set(2)
                             goto('/details')
                         }}>details</a>. Name your prediction files for <span class="italic">Task 1</span> as "prediction.txt",

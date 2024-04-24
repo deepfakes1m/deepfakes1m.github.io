@@ -1,5 +1,5 @@
 <script>
-    import { EMAIL, TITLE } from "$lib/consts";
+    import { TITLE } from "$lib/consts";
     import MediaQuery from "$lib/components/MediaQuery.svelte";
     import Step1 from "./Step1.svelte";
     import Step2 from "./Step2.svelte";
