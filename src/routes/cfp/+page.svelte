@@ -4,9 +4,6 @@
     import datasetStatsDark from "$lib/assets/dataset_stats_dark.svg";
     import { dataTheme } from "$lib/store/theme";
     import { display } from 'mathlifier';
-
-    const displayedMath = display(`Score = \\frac{1}{8}\\sum_{IoU\\in\\{0.5,0.75,0.9,0.95\\}}AP@IoU
-    +\\frac{1}{10}\\sum_{N\\in\\{50,30,20,10,5\\}}AR@N`);
 </script>
 
 <svelte:head>
