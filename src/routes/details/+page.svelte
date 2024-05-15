@@ -41,7 +41,7 @@
 
                     <p>In AV-Deepfake1M, each video only contain very few or no fake visual/audio segments.
                         We host the challenge targeting 2 tasks. The participants are expected to develop the models
-                        on the train & val set, and submit the predictions on the test set. The winner will be
+                        on the train & val set, and submit the predictions on the test set. The top-3 winner in each task will be
                         determined by the performance on the test set, and required to submit the code (Docker) for the final
                         checking.
                     </p>
