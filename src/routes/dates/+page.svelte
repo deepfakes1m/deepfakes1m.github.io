@@ -7,12 +7,11 @@
         {name: "Test set release & Evaluation begin", date: "May 15, 2024"},
         {name: "Evaluation end", date: "June 7, 2024"},
         {name: "Paper Invitation Decision", date: "July 1, 2024"},
-        {name: "Paper Submission Deadline", date: "July 15, 2024"},
-        {name: "Final Decision", date: "TBD"},
-        {name: "Camera Ready Deadline", date: "July 29, 2024"},
+        {name: "Paper Submission Deadline", date: "July 20, 2024"},
+        {name: "Camera Ready Deadline", date: "August 4, 2024"},
     ]
 
-    const currentIndex = 3;
+    const currentIndex = 4;
 </script>
 
 <svelte:head>
