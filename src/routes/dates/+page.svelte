@@ -9,7 +9,7 @@
         {name: "Paper Invitation Decision", date: "July 1, 2024"},
         {name: "Paper Submission Deadline", date: "July 26, 2024"},
         {name: "Final Decision", date: "July 31, 2024"},
-        {name: "Camera Ready Deadline", date: "August 7, 2024"},
+        {name: "Camera Ready Deadline", date: "August 22, 2024"},
     ]
 
     const currentIndex = 5;
