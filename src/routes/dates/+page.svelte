@@ -12,7 +12,7 @@
         {name: "Camera Ready Deadline", date: "August 22, 2024"},
     ]
 
-    const currentIndex = 5;
+    const currentIndex = 7;
 </script>
 
 <svelte:head>
