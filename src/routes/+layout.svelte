@@ -26,12 +26,13 @@
 
     const items = [
         { name: 'About', path: '/', id: 0, enabled: true },
-        { name: 'Registration', path: '/registration', id: 1, enabled: true },
-        { name: 'Details', path: '/details', id: 2, enabled: true },
-        { name: 'Submission', path: '/submission', id: 3, enabled: true },
-        { name: 'Call For Papers', path: '/cfp', id: 4, enabled: true },
-        { name: 'Important Dates', path: '/dates', id: 5, enabled: true },
-        { name: 'Organization', path: '/organization', id: 6, enabled: true }
+        { name: 'Program', path: '/program', id: 1, enabled: false },
+        { name: 'Registration', path: '/registration', id: 2, enabled: true },
+        { name: 'Details', path: '/details', id: 3, enabled: true },
+        { name: 'Evaluation', path: '/evaluation', id: 4, enabled: true },
+        { name: 'Call For Papers', path: '/cfp', id: 5, enabled: true },
+        { name: 'Important Dates', path: '/dates', id: 6, enabled: true },
+        { name: 'Organization', path: '/organization', id: 7, enabled: true }
     ]
 </script>
 

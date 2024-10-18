@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <title>Submission in {TITLE}</title>
+    <title>Evaluation in {TITLE}</title>
     <meta name="description" content="Submission in {TITLE}"/>
 </svelte:head>
 
