@@ -39,7 +39,7 @@
 
                 <button class="btn btn-primary w-64"
                         on:click={() => {
-                        tabNum.set(1)
+                        tabNum.set(2)
                         goto('/registration')
                     }}
                 >Register
