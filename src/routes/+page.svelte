@@ -16,7 +16,7 @@
         <div class="hero-content text-center">
             <div class="max-w-4xl">
                 <h1 class="text-5xl font-bold">{TITLE}</h1>
-                <p class="text-xl py-6"><a href="https://2024.acmmm.org/" class="link link-info">ACM Multimedia 2024</a>,
+                <p class="text-xl py-6"><a href="https://2024.acmmm.org/" class="link link-info">ACM Multimedia 2024</a> Oct 28,
                     Melbourne</p>
 
                 <div class="flex flex-wrap">
@@ -37,7 +37,15 @@
                     </div>
                 </div>
 
-                <button class="btn btn-primary w-64"
+                <button class="btn btn-accent w-64 mr-10"
+                        on:click={() => {
+                        tabNum.set(1)
+                        goto('/program')
+                    }}
+                >Program
+                </button>
+
+                <button class="btn btn-primary w-64 mr-10"
                         on:click={() => {
                         tabNum.set(2)
                         goto('/registration')

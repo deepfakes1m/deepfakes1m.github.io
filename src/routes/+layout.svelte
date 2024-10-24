@@ -26,7 +26,7 @@
 
     const items = [
         { name: 'About', path: '/', id: 0, enabled: true },
-        { name: 'Program', path: '/program', id: 1, enabled: false },
+        { name: 'Program', path: '/program', id: 1, enabled: true },
         { name: 'Registration', path: '/registration', id: 2, enabled: true },
         { name: 'Details', path: '/details', id: 3, enabled: true },
         { name: 'Evaluation', path: '/evaluation', id: 4, enabled: true },
@@ -59,7 +59,7 @@
 <MediaQuery query="(min-width: 800px) and (min-height: 720px)" let:matches>
     {#if matches}
         <div class="fixed w-full" id="navbar-div"
-             class:fixed={$page.url.pathname !== "/details" && $page.url.pathname !== "/cfp" && $page.url.pathname !== "/evaluation"}>
+             class:fixed={$page.url.pathname !== "/details" && $page.url.pathname !== "/cfp" && $page.url.pathname !== "/evaluation" && $page.url.pathname !== "/program"}>
             <Navbar items={items}/>
         </div>
     {/if}
