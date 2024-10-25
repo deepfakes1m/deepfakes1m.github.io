@@ -1,18 +1,18 @@
-<script>
+<script lang="ts">
     import { TITLE } from "$lib/consts";
     import ashishPhoto from "$lib/assets/AshishJaiman.jpg";
     import usmanPhoto from "$lib/assets/UsmanTarique.jpeg";
 
     const items = [
-        { time: "09:00 - 09:10", text: "Opening and welcome" },
-        { time: "09:10 - 09:20", text: "Challenge and Dataset Description"},
-        { time: "09:30 - 10:00", text: "Keynote: Ashish Jaiman"},
-        { time: "10:00 - 10:20", text: "Paper 1: VIGO: audioVIsual fake detection and seGment localizatiOn\n"},
-        { time: "10:20 - 11:00", text: "Break (Morning Tea)"},
-        { time: "11:00 - 11:20", text: "Paper 2: MFMS: Learning Modality-Fused and Modality-Specific Features for Deepfake Detection and Localization Tasks\n"},
-        { time: "11:20 - 11:40", text: "Paper 3: Building Robust Video-Level Deepfake Detection via Audio-Visual Local-Global Interactions\n"},
-        { time: "11:40 - 12:00", text: "Talk: Usman Tariq, Cross-Cultural Deepfakes Analysis"},
-        { time: "12:00 - 12:20", text: "Challenge Results and Future Work"}
+        { time: "09:00 - 09:10", speaker: "Abhinav Dhall", text: "Opening and welcome" },
+        { time: "09:10 - 09:20", speaker: "Zhixi Cai", text: "Challenge and Dataset Description"},
+        { time: "09:30 - 10:00", speaker: "Ashish Jaiman", text: "Keynote: Ashish Jaiman"},
+        { time: "10:00 - 10:20", speaker: "Gradiant", text: "Paper 1: VIGO: audioVIsual fake detection and seGment localizatiOn\n"},
+        { time: "10:20 - 11:00", speaker: "N/A", text: "Break (Morning Tea)"},
+        { time: "11:00 - 11:20", speaker: "Maya & Zhanyi", text: "Paper 2: MFMS: Learning Modality-Fused and Modality-Specific Features for Deepfake Detection and Localization Tasks\n"},
+        { time: "11:20 - 11:40", speaker: "USTC & AntGroup", text: "Paper 3: Building Robust Video-Level Deepfake Detection via Audio-Visual Local-Global Interactions\n"},
+        { time: "11:40 - 12:00", speaker: "Usman Tariq", text: "Talk: Cross-Cultural Deepfakes Analysis"},
+        { time: "12:00 - 12:20", speaker: "Shreya Ghosh", text: "Challenge Results and Future Work"}
     ]
 
     const keynoteSpeakers = [
@@ -63,7 +63,8 @@
                             <!-- head -->
                             <thead>
                                 <tr>
-                                    <th>Time</th>
+                                    <th class="w-1/6">Time</th>
+                                    <th>Speaker</th>
                                     <th>Title</th>
                                 </tr>
                             </thead>
@@ -71,6 +72,7 @@
                                 {#each items as item}
                                     <tr>
                                         <td>{item.time}</td>
+                                        <td>{item.speaker}</td>
                                         <td>{item.text}</td>
                                     </tr>
                                 {/each}
