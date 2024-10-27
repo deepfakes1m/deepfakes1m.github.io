@@ -10,7 +10,7 @@
         { time: "10:00 - 10:20", speaker: "Gradiant", text: "Paper 1: VIGO: audioVIsual fake detection and seGment localizatiOn\n"},
         { time: "10:20 - 11:00", speaker: "N/A", text: "Break (Morning Tea)"},
         { time: "11:00 - 11:20", speaker: "Maya & Zhanyi", text: "Paper 2: MFMS: Learning Modality-Fused and Modality-Specific Features for Deepfake Detection and Localization Tasks\n"},
-        { time: "11:20 - 11:40", speaker: "USTC & AntGroup", text: "Paper 3: Building Robust Video-Level Deepfake Detection via Audio-Visual Local-Global Interactions\n"},
+        { time: "11:20 - 11:40", speaker: "FAKE-DETECTOR & AntGroup", text: "Paper 3: Building Robust Video-Level Deepfake Detection via Audio-Visual Local-Global Interactions\n"},
         { time: "11:40 - 12:00", speaker: "Usman Tariq", text: "Talk: Cross-Cultural Deepfakes Analysis"},
         { time: "12:00 - 12:20", speaker: "Shreya Ghosh", text: "Challenge Results and Future Work"}
     ]
