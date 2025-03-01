@@ -31,7 +31,7 @@
         { name: 'Details', path: `/${$currentVersion}/details`, id: 3, enabled: $currentVersion === '2024' },
         { name: 'Evaluation', path: `/${$currentVersion}/evaluation`, id: 4, enabled: $currentVersion === '2024' },
         { name: 'Call For Papers', path: `/${$currentVersion}/cfp`, id: 5, enabled: $currentVersion === '2024' },
-        { name: 'Important Dates', path: `/${$currentVersion}/dates`, id: 6, enabled: $currentVersion === '2024' },
+        { name: 'Important Dates', path: `/${$currentVersion}/dates`, id: 6, enabled: true },
         { name: 'Organization', path: `/${$currentVersion}/organization`, id: 7, enabled: $currentVersion === '2024' }
     ];
 </script>

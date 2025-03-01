@@ -1,8 +1,10 @@
 <script lang="ts">
     import ThemeButton from "$lib/components/ThemeButton.svelte";
+    import MobileVersionSwitcher from "$lib/components/MobileVersionSwitcher.svelte";
     import { onMount } from "svelte";
     import { goto } from "$app/navigation";
     import { tabNum } from "$lib/store/tab-num";
+    import { currentVersion } from "$lib/store/version";
 
     export let items: Array<{ name: string, path: string, id: number, enabled: boolean }>;
 
@@ -16,11 +18,10 @@
     })
 </script>
 
-
 <div class="navbar bg-base-300">
     <div class="navbar-start">
         <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <div tabindex="0" role="button" class="btn btn-ghost">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                      stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/>
@@ -39,9 +40,10 @@
         </div>
     </div>
     <div class="navbar-center">
-        <a class="btn btn-ghost text-sm" href="/" on:click={() => onClick(0, "/")}>1M-Deepfakes Detection Challenge</a>
+        <a class="btn btn-ghost text-sm" href={`/${$currentVersion}`} on:click={() => onClick(0, `/${$currentVersion}`)}>1M-Deepfakes Detection Challenge</a>
     </div>
-    <div class="navbar-end">
+    <div class="navbar-end gap-2">
+        <MobileVersionSwitcher />
         <ThemeButton size="5" className="btn btn-ghost btn-circle"/>
     </div>
 </div>

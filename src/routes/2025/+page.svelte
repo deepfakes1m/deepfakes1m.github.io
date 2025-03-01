@@ -1,7 +1,5 @@
 <script>
     import { TITLE } from "$lib/consts";
-    import { goto } from "$app/navigation";
-    import { tabNum } from "$lib/store/tab-num";
 </script>
 
 <svelte:head>
