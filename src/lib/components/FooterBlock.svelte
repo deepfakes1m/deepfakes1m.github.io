@@ -1,6 +1,15 @@
 <script lang="ts">
-import { EMAIL } from "$lib/consts";
-import { page } from '$app/stores';
+    import { EMAIL } from "$lib/consts";
+    import { page } from '$app/stores';
+    import { currentVersion } from "$lib/store/version";
+
+    $: venue = '';
+
+    $: if ($currentVersion === '2024') {
+        venue = 'ACM Multimedia 2024';
+    } else {
+        venue = 'ACM Multimedia 2025';
+    }
 </script>
 
 <footer class="footer footer-center p-4 bg-base-200 text-base-content bottom-0 fixed h-12"
@@ -10,7 +19,7 @@ import { page } from '$app/stores';
 >
     <div class="flex w-full">
         <div class="w-1"/>
-        <p class="h-5">1M-Deepfakes Detection Challenge - ACM Multimedia 2024</p>
+        <p class="h-5">1M-Deepfakes Detection Challenge - {venue}</p>
         <div class="grow"/>
         <p class="h-5"><a href="mailto:Deepfakes1m@gmail.com" class="link link-info font-bold">{EMAIL}</a></p>
         <div class="w-1"/>

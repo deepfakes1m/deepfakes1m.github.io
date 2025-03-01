@@ -8,6 +8,7 @@
     import NavbarMobile from "$lib/components/NavbarMobile.svelte";
     import { dataTheme } from "$lib/store/theme";
     import { page } from '$app/stores';
+    import { currentVersion } from "$lib/store/version";
 
     onMount(() => {
         themeChange(false)
@@ -23,16 +24,15 @@
         }
     })
     
-    $: version = $page.url.pathname.startsWith('/2024') ? '2024' : '2025';
     $: items = [
-        { name: 'About', path: `/${version}`, id: 0, enabled: true },
-        { name: 'Program', path: `/${version}/program`, id: 1, enabled: version === '2024' },
-        { name: 'Registration', path: `/${version}/registration`, id: 2, enabled: version === '2024' },
-        { name: 'Details', path: `/${version}/details`, id: 3, enabled: version === '2024' },
-        { name: 'Evaluation', path: `/${version}/evaluation`, id: 4, enabled: version === '2024' },
-        { name: 'Call For Papers', path: `/${version}/cfp`, id: 5, enabled: version === '2024' },
-        { name: 'Important Dates', path: `/${version}/dates`, id: 6, enabled: version === '2024' },
-        { name: 'Organization', path: `/${version}/organization`, id: 7, enabled: version === '2024' }
+        { name: 'About', path: `/${$currentVersion}`, id: 0, enabled: true },
+        { name: 'Program', path: `/${$currentVersion}/program`, id: 1, enabled: $currentVersion === '2024' },
+        { name: 'Registration', path: `/${$currentVersion}/registration`, id: 2, enabled: $currentVersion === '2024' },
+        { name: 'Details', path: `/${$currentVersion}/details`, id: 3, enabled: $currentVersion === '2024' },
+        { name: 'Evaluation', path: `/${$currentVersion}/evaluation`, id: 4, enabled: $currentVersion === '2024' },
+        { name: 'Call For Papers', path: `/${$currentVersion}/cfp`, id: 5, enabled: $currentVersion === '2024' },
+        { name: 'Important Dates', path: `/${$currentVersion}/dates`, id: 6, enabled: $currentVersion === '2024' },
+        { name: 'Organization', path: `/${$currentVersion}/organization`, id: 7, enabled: $currentVersion === '2024' }
     ];
 </script>
 
