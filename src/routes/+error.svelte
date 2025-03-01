@@ -1,6 +1,5 @@
 <script>
 import { tabNum } from "$lib/store/tab-num";
-import { goto } from "$app/navigation";
 import { onMount } from "svelte";
 
 onMount(() => {
