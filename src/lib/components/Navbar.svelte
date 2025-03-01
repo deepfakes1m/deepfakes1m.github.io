@@ -1,5 +1,6 @@
 <script lang="ts">
     import ThemeButton from "$lib/components/ThemeButton.svelte";
+    import VersionSwitcher from "$lib/components/VersionSwitcher.svelte";
     import { onMount } from "svelte";
     import { goto } from "$app/navigation";
     import { tabNum } from "$lib/store/tab-num";
@@ -18,6 +19,9 @@
 
 <div class="absolute top-0 right-0 p-10">
     <ThemeButton className="btn btn-ghost btn-circle"/>
+</div>
+<div class="absolute top-0 left-0 p-10">
+    <VersionSwitcher />
 </div>
 <div class="p-10 flex justify-center">
     <div class="join">

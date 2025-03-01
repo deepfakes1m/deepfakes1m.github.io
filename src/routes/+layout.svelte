@@ -22,18 +22,18 @@
             }
         }
     })
-
-
-    const items = [
-        { name: 'About', path: '/', id: 0, enabled: true },
-        { name: 'Program', path: '/program', id: 1, enabled: true },
-        { name: 'Registration', path: '/registration', id: 2, enabled: true },
-        { name: 'Details', path: '/details', id: 3, enabled: true },
-        { name: 'Evaluation', path: '/evaluation', id: 4, enabled: true },
-        { name: 'Call For Papers', path: '/cfp', id: 5, enabled: true },
-        { name: 'Important Dates', path: '/dates', id: 6, enabled: true },
-        { name: 'Organization', path: '/organization', id: 7, enabled: true }
-    ]
+    
+    $: version = $page.url.pathname.startsWith('/2024') ? '2024' : '2025';
+    $: items = [
+        { name: 'About', path: `/${version}`, id: 0, enabled: true },
+        { name: 'Program', path: `/${version}/program`, id: 1, enabled: version === '2024' },
+        { name: 'Registration', path: `/${version}/registration`, id: 2, enabled: version === '2024' },
+        { name: 'Details', path: `/${version}/details`, id: 3, enabled: version === '2024' },
+        { name: 'Evaluation', path: `/${version}/evaluation`, id: 4, enabled: version === '2024' },
+        { name: 'Call For Papers', path: `/${version}/cfp`, id: 5, enabled: version === '2024' },
+        { name: 'Important Dates', path: `/${version}/dates`, id: 6, enabled: version === '2024' },
+        { name: 'Organization', path: `/${version}/organization`, id: 7, enabled: version === '2024' }
+    ];
 </script>
 
 <style>
@@ -59,7 +59,7 @@
 <MediaQuery query="(min-width: 800px) and (min-height: 720px)" let:matches>
     {#if matches}
         <div class="fixed w-full" id="navbar-div"
-             class:fixed={$page.url.pathname !== "/details" && $page.url.pathname !== "/cfp" && $page.url.pathname !== "/evaluation" && $page.url.pathname !== "/program"}>
+             class:fixed={!$page.url.pathname.endsWith("/details") && !$page.url.pathname.endsWith("/cfp") && !$page.url.pathname.endsWith("/evaluation") && !$page.url.pathname.endsWith("/program")}>
             <Navbar items={items}/>
         </div>
     {/if}
