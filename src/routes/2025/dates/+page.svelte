@@ -3,12 +3,12 @@
     import TickIcon from "$lib/components/TickIcon.svelte";
 
     const items = [
-        {name: "Train and validation set release", date: "Spring, 2025"},
-        {name: "Test set release & Evaluation begin", date: "TBD"},
-        {name: "Evaluation end", date: "TBD"},
-        {name: "Paper Invitation Decision", date: "TBD"},
-        {name: "Paper Submission Deadline", date: "TBD"},
-        {name: "Final Decision", date: "TBD"},
+        {name: "Train and validation set release", date: "March 21, 2025"},
+        {name: "Test set release & Evaluation begin", date: "May 15, 2025"},
+        {name: "Evaluation end", date: "June 13, 2025"},
+        {name: "Paper Invitation Decision", date: "July 7, 2025"},
+        {name: "Paper Submission Deadline", date: "August 1, 2025"},
+        {name: "Final Decision", date: "August 7, 2025"},
         {name: "Camera Ready Deadline", date: "August 26, 2025"},
     ]
 
