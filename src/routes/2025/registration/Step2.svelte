@@ -19,9 +19,9 @@
                     <a class="link link-info" href={"mailto:" + EMAIL}>{EMAIL}</a>
                 </p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary"
+                    <button class="btn btn-primary btn-disabled"
                             on:click={() => window.open(eulaLink, "_blank")}
-                    >Download EULA
+                    >Download EULA (Coming Soon)
                     </button>
                 </div>
             </div>
@@ -39,9 +39,9 @@
                     <a class="link link-info" href={"mailto:" + EMAIL}>{EMAIL}</a>
                 </p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary"
+                    <button class="btn btn-primary btn-disabled"
                             on:click={() => window.open(eulaLink, "_blank")}
-                    >Download EULA
+                    >Download EULA (Coming Soon)
                     </button>
                 </div>
             </div>

@@ -14,9 +14,9 @@
                     <span class="font-bold">form</span> with the required information.
                 </p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary"
+                    <button class="btn btn-primary btn-disabled"
                             on:click={() => window.open("https://forms.office.com/r/yiqPZSQ1Ur", "_blank")}
-                    >Complete Form
+                    >Complete Form (Coming Soon)
                     </button>
                 </div>
             </div>
@@ -31,9 +31,9 @@
                     <span class="font-bold">form</span> with the required information.
                 </p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary"
+                    <button class="btn btn-primary btn-disabled"
                             on:click={() => window.open("https://forms.office.com/r/yiqPZSQ1Ur", "_blank")}
-                    >Complete Form
+                    >Complete Form (Coming Soon)
                     </button>
                 </div>
             </div>

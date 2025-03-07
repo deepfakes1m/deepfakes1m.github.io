@@ -27,12 +27,12 @@
     $: items = [
         { name: 'About', path: `/${$currentVersion}`, id: 0, enabled: true },
         { name: 'Program', path: `/${$currentVersion}/program`, id: 1, enabled: $currentVersion === '2024' },
-        { name: 'Registration', path: `/${$currentVersion}/registration`, id: 2, enabled: $currentVersion === '2024' },
+        { name: 'Registration', path: `/${$currentVersion}/registration`, id: 2, enabled: true },
         { name: 'Details', path: `/${$currentVersion}/details`, id: 3, enabled: $currentVersion === '2024' },
         { name: 'Evaluation', path: `/${$currentVersion}/evaluation`, id: 4, enabled: $currentVersion === '2024' },
         { name: 'Call For Papers', path: `/${$currentVersion}/cfp`, id: 5, enabled: $currentVersion === '2024' },
         { name: 'Important Dates', path: `/${$currentVersion}/dates`, id: 6, enabled: true },
-        { name: 'Organization', path: `/${$currentVersion}/organization`, id: 7, enabled: $currentVersion === '2024' }
+        { name: 'Organization', path: `/${$currentVersion}/organization`, id: 7, enabled: true }
     ];
 </script>
 
