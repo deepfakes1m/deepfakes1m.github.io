@@ -33,7 +33,7 @@
     <MediaQuery query="(min-width: 830px)" let:matches>
         {#if matches}
             <div class="flex justify-center">
-                <Organizer name="Abhinav Dhall" affiliation="Flinders University"
+                <Organizer name="Abhinav Dhall" affiliation="Monash University"
                            image={abhinavAvatar}
                            url="https://sites.google.com/site/dhallabhinav/"
                            className="p-2"
