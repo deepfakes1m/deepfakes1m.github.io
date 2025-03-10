@@ -47,10 +47,10 @@
                         These systems,
                         which detect and analyse the deepfakes are referred to as deepfakes detectors.
                     </p>
-                    <p>
-                        In the grand challenge, teams who participate in the test phase are invited to submit paper
-                        describing their method for peer review.
-                    </p>
+<!--                    <p>-->
+<!--                        In the grand challenge, teams who participate in the test phase are invited to submit paper-->
+<!--                        describing their method for peer review.-->
+<!--                    </p>-->
                 </div>
             </div>
 
