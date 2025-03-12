@@ -1,5 +1,7 @@
 <script>
     import { TITLE } from "$lib/consts";
+    import { tabNum } from '$lib/store/tab-num';
+    import { goto } from '$app/navigation';
 </script>
 
 <svelte:head>
@@ -23,8 +25,12 @@
                     </div>
                 </div>
 
-                <button class="btn btn-primary w-64 disabled" disabled>
-                    Registration Coming Soon
+                <button class="btn btn-primary w-64 mr-10"
+                        on:click={() => {
+                        tabNum.set(2);
+                        goto('/2025/registration')
+                    }}
+                >Register
                 </button>
             </div>
         </div>

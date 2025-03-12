@@ -10,6 +10,7 @@
     import MediaQuery from "$lib/components/MediaQuery.svelte";
     import PCMember from "$lib/components/PCMember.svelte";
     import Divider from "$lib/components/Divider.svelte";
+    import kalinAvatar from '$lib/assets/Kalin.jpeg';
 </script>
 
 <svelte:head>
@@ -50,6 +51,11 @@
                 />
             </div>
             <div class="flex justify-center">
+                <Organizer name="Kalin Stefanov" affiliation="Monash University"
+                           image={kalinAvatar}
+                           url="https://research.monash.edu/en/persons/kalin-stefanov"
+                           className="p-2"
+                />
                 <Organizer name="Mohammad Haris" affiliation="MBZUAI"
                            image={mohamadAvatar}
                            url="https://m-haris-khan.com/"
@@ -78,6 +84,11 @@
                            url="https://staffportal.curtin.edu.au/staff/profile/view/shreya-ghosh-a2f9d3ca/"
                            className="p-2"
                 />
+                <Organizer name="Kalin Stefanov" affiliation="Monash University"
+                           image={kalinAvatar}
+                           url="https://research.monash.edu/en/persons/kalin-stefanov"
+                           className="p-2"
+                />
                 <Organizer name="Mohammad Haris" affiliation="MBZUAI"
                            image={mohamadAvatar}
                            url="https://m-haris-khan.com/"
@@ -98,6 +109,12 @@
     <br>
 
     <div class="grid justify-center" id="pc-member-div">
+        <PCMember name="Junichi Yamagishi" affiliation="National Institute of Informatics"
+                  className="p-2 justify-center"
+        />
+        <PCMember name="Padmanabhan Rajan" affiliation="IIT Mandi"
+                  className="p-2 justify-center"
+        />
     </div>
 
     <Divider/>

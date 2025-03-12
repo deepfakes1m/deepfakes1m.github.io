@@ -1,7 +1,7 @@
 <script>
     import step2Image from "$lib/assets/send_email.webp";
     import { EMAIL } from "$lib/consts";
-    import eulaLink from "$lib/assets/eula.pdf";
+    import eulaLink from "$lib/assets/eula_2025.pdf";
     import MediaQuery from "$lib/components/MediaQuery.svelte";
 </script>
 
@@ -19,9 +19,9 @@
                     <a class="link link-info" href={"mailto:" + EMAIL}>{EMAIL}</a>
                 </p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary btn-disabled"
+                    <button class="btn btn-primary"
                             on:click={() => window.open(eulaLink, "_blank")}
-                    >Download EULA (Coming Soon)
+                    >Download EULA
                     </button>
                 </div>
             </div>
@@ -39,9 +39,9 @@
                     <a class="link link-info" href={"mailto:" + EMAIL}>{EMAIL}</a>
                 </p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary btn-disabled"
+                    <button class="btn btn-primary"
                             on:click={() => window.open(eulaLink, "_blank")}
-                    >Download EULA (Coming Soon)
+                    >Download EULA
                     </button>
                 </div>
             </div>
