@@ -13,9 +13,8 @@
 </script>
 
 <footer class="footer footer-center p-4 bg-base-200 text-base-content bottom-0 fixed h-12"
-        class:details-footer={($page.url.pathname === '/details')}
-        class:org-footer={($page.url.pathname === '/organization')}
-        class:other-footer={($page.url.pathname !== '/details' && $page.url.pathname !== '/organization')}
+        class:details-footer={($page.url.pathname === '/details' || $page.url.pathname === '/2025/organization')}
+        class:other-footer={($page.url.pathname !== '/details' && $page.url.pathname !== '/2025/organization')}
 >
     <div class="flex w-full">
         <div class="w-1"/>

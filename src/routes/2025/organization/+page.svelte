@@ -22,7 +22,7 @@
 
     <MediaQuery query="(min-width: 800px)" let:matches>
         {#if matches}
-            <div class="h-36 w-full"/>
+            <div class="h-16 w-full"/>
         {:else}
             <div class="h-16 w-full"/>
         {/if}
@@ -119,7 +119,21 @@
 
     <Divider/>
 
+    <h1 class="text-4xl font-bold text-center">Dataset Chair</h1>
     <br>
+
+    <div class="grid justify-center" id="pc-member-div">
+        <PCMember name="Kartik Kuckreja" affiliation="NBZUAI"
+                  className="p-2 justify-center"
+        />
+        <PCMember name="Akanksha Chuchra" affiliation="IIT Ropar"
+                  className="p-2 justify-center"
+        />
+    </div>
+
+    <Divider/>
+
+<!--    <br>-->
     <h1 class="text-4xl font-bold text-center">Contact</h1>
     <br>
 
@@ -129,6 +143,7 @@
     </a>
     </p>
     <br>
+    <div class="h-12 footer-pad"/>
 </div>
 
 <style>

@@ -59,7 +59,11 @@
 <MediaQuery query="(min-width: 800px) and (min-height: 720px)" let:matches>
     {#if matches}
         <div class="fixed w-full" id="navbar-div"
-             class:fixed={!$page.url.pathname.endsWith("/details") && !$page.url.pathname.endsWith("/cfp") && !$page.url.pathname.endsWith("/evaluation") && !$page.url.pathname.endsWith("/program")}>
+             class:fixed={!$page.url.pathname.endsWith("/details")
+                && !$page.url.pathname.endsWith("/cfp")
+                && !$page.url.pathname.endsWith("/evaluation")
+                && !$page.url.pathname.endsWith("/program")
+                && !$page.url.pathname.endsWith("/2025/organization")}>
             <Navbar items={items}/>
         </div>
     {/if}
