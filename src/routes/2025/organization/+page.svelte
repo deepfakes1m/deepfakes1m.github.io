@@ -115,6 +115,12 @@
         <PCMember name="Padmanabhan Rajan" affiliation="IIT Mandi"
                   className="p-2 justify-center"
         />
+        <PCMember name="Zahid Akhtar" affiliation="SUNY Poly"
+                  className="p-2 justify-center"
+        />
+        <PCMember name="Sharif Abuadbba" affiliation="CSIRO"
+                  className="p-2 justify-center"
+        />
     </div>
 
     <Divider/>
