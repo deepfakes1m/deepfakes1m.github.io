@@ -115,6 +115,12 @@
         <PCMember name="Padmanabhan Rajan" affiliation="IIT Mandi"
                   className="p-2 justify-center"
         />
+        <PCMember name="Dimitrios Kollias" affiliation="Queen Mary University of London"
+                  className="p-2 justify-center"
+        />
+        <PCMember name="Haoyi Wang" affiliation="University of Plymouth"
+                  className="p-2 justify-center"
+        />
         <PCMember name="Zahid Akhtar" affiliation="SUNY Poly"
                   className="p-2 justify-center"
         />
