@@ -127,6 +127,12 @@
         <PCMember name="Sharif Abuadbba" affiliation="CSIRO"
                   className="p-2 justify-center"
         />
+        <PCMember name="Sebastiano Battiato" affiliation="University of Catania"
+                  className="p-2 justify-center"
+        />
+        <PCMember name="Luca Guarnera" affiliation="University of Catania"
+                  className="p-2 justify-center"
+        />
     </div>
 
     <Divider/>
@@ -134,7 +140,7 @@
     <h1 class="text-4xl font-bold text-center">Dataset Chair</h1>
     <br>
 
-    <div class="grid justify-center" id="pc-member-div">
+    <div class="grid justify-center" id="dataset-member-div">
         <PCMember name="Kartik Kuckreja" affiliation="NBZUAI"
                   className="p-2 justify-center"
         />
@@ -173,7 +179,12 @@
 
     @media (min-width: 960px) {
         #pc-member-div {
-            @apply grid-flow-col;
+            @apply grid-cols-4;
+            /*@apply grid-flow-col;*/
         }
+    }
+
+    #dataset-member-div {
+        @apply grid-flow-col;
     }
 </style>
