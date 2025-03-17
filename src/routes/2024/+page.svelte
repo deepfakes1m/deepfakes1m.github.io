@@ -14,8 +14,8 @@
     <div class="flex-1"/>
     <div class="hero bg-base-100">
         <div class="hero-content text-center">
-            <div class="max-w-4xl">
-                <h1 class="text-5xl font-bold">{TITLE}</h1>
+            <div class="max-w-5xl">
+                <h1 class="text-5xl font-bold">2024 {TITLE}</h1>
                 <p class="text-xl py-6"><a href="https://2024.acmmm.org/" class="link link-info">ACM Multimedia 2024</a> Oct 28,
                     Melbourne</p>
 

@@ -14,10 +14,14 @@
     <div class="flex-1"/>
     <div class="hero bg-base-100">
         <div class="hero-content text-center">
-            <div class="max-w-4xl">
-                <h1 class="text-5xl font-bold">{TITLE}</h1>
-                <p class="text-xl py-6"><a href="https://2025.acmmm.org/" class="link link-info">ACM Multimedia 2025</a> - Coming Soon</p>
+            <div class="max-w-5xl">
+                <h1 class="text-5xl font-bold">2025 {TITLE}</h1>
+                <p class="text-xl py-6"><a href="https://2025.acmmm.org/" class="link link-info">ACM Multimedia 2025</a></p>
 
+                <p class="text-xl">The new 2025 challenge
+                    builds on the successful <a class="link link-info" href="https://dl.acm.org/doi/abs/10.1145/3664647.3689145">
+                    2024 challenge</a> to focus on the deepfake detection and localization.
+                    This year the challenge is based on new <span class="text-primary font-bold">AV-Deepfakes-1M++</span> dataset.</p>
 
                 <div class="flex flex-wrap">
                     <div class="card w-full bg-base-200/50 shadow-xl m-5">
