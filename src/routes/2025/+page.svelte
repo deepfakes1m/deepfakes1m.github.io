@@ -18,10 +18,22 @@
                 <h1 class="text-5xl font-bold">{TITLE}</h1>
                 <p class="text-xl py-6"><a href="https://2025.acmmm.org/" class="link link-info">ACM Multimedia 2025</a> - Coming Soon</p>
 
-                <div class="card w-full bg-base-200/50 shadow-xl m-5">
-                    <div class="card-body text-center">
-                        <h2 class="text-2xl font-bold mb-4">Welcome to the 2025 1M-Deepfakes Detection Challenge!</h2>
-                        <p class="mb-4">We are currently preparing the challenge details for ACM Multimedia 2025.</p>
+
+                <div class="flex flex-wrap">
+                    <div class="card w-full bg-base-200/50 shadow-xl m-5">
+                        <div class="card-body">
+                            <h2 class="card-title">Task 1: Video-Level Deepfake Detection</h2>
+                            <p>Given an audio-visual sample containing a single speaker,
+                                the task is to identify if the video is a deepfake or real.</p>
+                        </div>
+                    </div>
+                    <div class="card w-full bg-base-200/50 shadow-xl m-5">
+                        <div class="card-body">
+                            <h2 class="card-title">Task 2: Deepfake Temporal Localization</h2>
+                            <p>Given an audio-visual sample containing a single speaker, the task is to find out the
+                                timestamps [start, end] in which the manipulation is done.
+                                The assumption here is that from the perspective of spreading misinformation.</p>
+                        </div>
                     </div>
                 </div>
 
