@@ -26,6 +26,9 @@
                     <p>We use Codabench
                     for evaluation the test set. <b>The details will be shared soon.</b>
                     </p>
+                    <p>
+                        Similar to the last year's challenge, top performing teams will need to submit the code and models for verification and evaluation.
+                    </p>
                 </div>
             </div>
         </div>
