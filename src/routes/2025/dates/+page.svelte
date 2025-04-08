@@ -3,7 +3,7 @@
     import TickIcon from "$lib/components/TickIcon.svelte";
 
     const items = [
-        {name: "Train and validation set release", date: "Early of April, 2025"},
+        {name: "Train and validation set release", date: "April 8, 2025"},
         {name: "Test set release & Evaluation begin", date: "May 15, 2025"},
         {name: "Evaluation end", date: "June 13, 2025"},
         {name: "Paper Invitation Decision", date: "July 7, 2025"},
@@ -12,7 +12,7 @@
         {name: "Camera Ready Deadline", date: "August 26, 2025"},
     ]
 
-    const currentIndex = 0;
+    const currentIndex = 1;
 </script>
 
 <svelte:head>
