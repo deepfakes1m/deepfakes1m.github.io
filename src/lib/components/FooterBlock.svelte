@@ -19,6 +19,8 @@
     <div class="flex w-full">
         <div class="w-1"/>
         <p class="h-5">1M-Deepfakes Detection Challenge - {venue}</p>
+        <div class="w-1"/>
+        <a href="https://github.com/ControlNet/AV-Deepfake1M" class="h-5 link link-info">GitHub</a>
         <div class="grow"/>
         <p class="h-5"><a href="mailto:Deepfakes1m@gmail.com" class="link link-info font-bold">{EMAIL}</a></p>
         <div class="w-1"/>

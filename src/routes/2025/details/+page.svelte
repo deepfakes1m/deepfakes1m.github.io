@@ -170,6 +170,8 @@
                     </div>
                     <p>It will unzip the all volumes automatically.</p>
 
+                    <p>The dataloader from the <a href="https://github.com/ControlNet/AV-Deepfake1M" class="link link-info">AV-Deepfake1M SDK</a> might be helpful.</p>
+
                 </div>
             </div>
 
