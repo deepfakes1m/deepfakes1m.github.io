@@ -33,7 +33,7 @@
                         AV-Deepfake1M.
                     </p>
                     <div class="overflow-x-auto">
-                      <table class="table bg-neutral">
+                      <table class="table bg-base-300">
                         <!-- head -->
                         <thead>
                           <tr>
