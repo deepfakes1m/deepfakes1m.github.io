@@ -253,6 +253,9 @@
                     <p>Q: Can external data be used in the challenge?</p>
                     <p>A: Only <span class="font-bold">public</span> external data can be used.</p>
                     <br>
+                    <p>Q: Can foundation models be used in the challenge?</p>
+                    <p>A: Yes if it is available <span class="font-bold">public</span>.</p>
+                    <br>
                     <p>Q: How to convert the segments label in metadata to frame-level and video-level labels?</p>
                     <p>A: Codes are below.</p>
                     <div class="mockup-code">
