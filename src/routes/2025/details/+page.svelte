@@ -256,6 +256,11 @@
                     <p>Q: Can foundation models be used in the challenge?</p>
                     <p>A: Yes if it is available <span class="font-bold">public</span>.</p>
                     <br>
+                    <p>Q: Is there any example code?</p>
+                    <p>A: Yes. The sample code (xception) of classification task is available at
+                        <a class="link link-info" href="https://github.com/ControlNet/AV-Deepfake1M/tree/master/examples/xception">official repo</a>.
+                    </p>
+                    <br>
                     <p>Q: How to convert the segments label in metadata to frame-level and video-level labels?</p>
                     <p>A: Codes are below.</p>
                     <div class="mockup-code">
