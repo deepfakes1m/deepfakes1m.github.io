@@ -4,8 +4,8 @@
 
     const items = [
         {name: "Train and validation set release", date: "April 8, 2025"},
-        {name: "Test set release & Evaluation begin", date: "May 15, 2025"},
-        {name: "Evaluation end", date: "June 13, 2025"},
+        {name: "Test set release & Evaluation begin", date: "May 30, 2025"},
+        {name: "Evaluation end", date: "June 27, 2025"},
         {name: "Paper Invitation Decision", date: "July 7, 2025"},
         {name: "Paper Submission Deadline", date: "August 1, 2025"},
         {name: "Final Decision", date: "August 7, 2025"},
