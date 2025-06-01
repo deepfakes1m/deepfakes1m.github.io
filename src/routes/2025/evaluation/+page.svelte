@@ -15,9 +15,7 @@
     <div class="h-16 w-full"/>
     <h1 class="text-4xl font-bold text-center">Evaluation</h1>
 
-    <br>
-
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-6">
         <div class="flex flex-col" id="details-div">
 
             <div class="card w-full bg-base-200 shadow-xl">

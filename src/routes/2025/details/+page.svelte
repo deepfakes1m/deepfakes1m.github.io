@@ -19,12 +19,10 @@
     <div class="h-16 w-full"/>
     <h1 class="text-4xl font-bold text-center">Challenge Details</h1>
 
-    <br>
-
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-6">
         <div class="flex flex-col" id="details-div">
 
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Dataset Summary</h2>
                     <p>For both tasks, we are using <span class="text-primary font-bold">AV-Deepfake1M++</span>
@@ -70,27 +68,27 @@
                           <!-- row 3 -->
                           <tr>
                             <th>TestA</th>
-                            <td>TBD</td>
-                            <td>TBD</td>
-                            <td>TBD</td>
-                            <td>TBD</td>
-                            <td>TBD</td>
-                            <td>TBD</td>
+                            <td>0.83M</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>208M</td>
+                            <td>2314H</td>
+                            <td>4503†</td>
                           </tr>
                           <tr>
                             <th>TestB</th>
-                            <td>TBD</td>
-                            <td>TBD</td>
-                            <td>TBD</td>
-                            <td>TBD</td>
-                            <td>TBD</td>
-                            <td>TBD</td>
+                            <td>0.05M</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>12M</td>
+                            <td>133H</td>
+                            <td>3539†</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
 
-                    <p class="text-sm">*The subjects in the training and validation sets are overlapped.</p>
+                    <p class="text-sm">*The subjects in the training and validation sets are overlapped. †The subjects in the testA and testB sets are overlapped.</p>
 
                     <p>In AV-Deepfake1M++, each video only contain very few or no fake visual/audio segments.
                         We host the challenge targeting 2 tasks. The participants are expected to develop the models
@@ -152,9 +150,7 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Prepare the Dataset</h2>
                     <p>Please register the challenge and submit the EULA, then you will be shared with a huggingface repository.</p>
@@ -175,9 +171,7 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Task 1: Deepfake Detection with Limited Label Access</h2>
                     <p>
@@ -211,9 +205,7 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Task 2: Deepfake Temporal Localization</h2>
                     <p>
@@ -227,7 +219,8 @@
                     </p>
                     <p>
                         The model output should be the temporal localization of the fake segments in the input video.
-                        The expected format is a json file with following structure.
+                        The expected format is a json file with following structure. 
+                        <span class="text-primary">Make sure the JSON file size is less than 4GB.</span>
                     </p>
                     <div class="mockup-code">
                         <pre><code>{"{"}</code></pre>
@@ -245,22 +238,20 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Frequently Answered Questions</h2>
                     <p>Q: Can external data be used in the challenge?</p>
                     <p>A: Only <span class="font-bold">public</span> external data can be used.</p>
-                    <br>
+                    <span class="mb-6"></span>
                     <p>Q: Can foundation models be used in the challenge?</p>
                     <p>A: Yes if it is available <span class="font-bold">public</span>.</p>
-                    <br>
+                    <span class="mb-6"></span>
                     <p>Q: Is there any example code?</p>
                     <p>A: Yes. The sample code xception for classification task and BA-TFD/BA-TFD+ for temporal localization task is available at
                         <a class="link link-info" href="https://github.com/ControlNet/AV-Deepfake1M/tree/master/examples">official repo</a>.
                     </p>
-                    <br>
+                    <span class="mb-6"></span>
                     <p>Q: How to convert the segments label in metadata to frame-level and video-level labels?</p>
                     <p>A: Codes are below.</p>
                     <div class="mockup-code">
@@ -276,7 +267,6 @@
                 </div>
             </div>
 
-            <br>
         </div>
     </div>
     <div class="h-12 footer-pad"/>

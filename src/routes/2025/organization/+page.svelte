@@ -28,8 +28,7 @@
         {/if}
     </MediaQuery>
     <!--	Title-->
-    <h1 class="text-4xl font-bold text-center">Organizers</h1>
-    <br>
+    <h1 class="text-4xl font-bold text-center mb-6">Organizers</h1>
 
     <MediaQuery query="(min-width: 830px)" let:matches>
         {#if matches}
@@ -105,8 +104,7 @@
 
     <Divider/>
 
-    <h1 class="text-4xl font-bold text-center">Program Committee (TBD)</h1>
-    <br>
+    <h1 class="text-4xl font-bold text-center mb-6">Program Committee (TBD)</h1>
 
     <div class="grid justify-center" id="pc-member-div">
         <PCMember name="Junichi Yamagishi" affiliation="National Institute of Informatics"
@@ -137,8 +135,7 @@
 
     <Divider/>
 
-    <h1 class="text-4xl font-bold text-center">Dataset Chair</h1>
-    <br>
+    <h1 class="text-4xl font-bold text-center mb-6">Dataset Chair</h1>
 
     <div class="grid justify-center" id="dataset-member-div">
         <PCMember name="Kartik Kuckreja" affiliation="NBZUAI"
@@ -151,16 +148,13 @@
 
     <Divider/>
 
-<!--    <br>-->
-    <h1 class="text-4xl font-bold text-center">Contact</h1>
-    <br>
+    <h1 class="text-4xl font-bold text-center mb-6">Contact</h1>
 
-    <p class="text-2xl text-center">
+    <p class="text-2xl text-center mb-6">
         Email: <a href={"mailto:" + EMAIL} class="link link-info">
         {EMAIL}
     </a>
     </p>
-    <br>
     <div class="h-12 footer-pad"/>
 </div>
 

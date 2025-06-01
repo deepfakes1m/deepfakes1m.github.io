@@ -33,14 +33,12 @@
 <div class="flex flex-col min-h-screen">
 
     <div class="h-16 w-full"/>
-    <h1 class="text-4xl font-bold text-center">Challenge Program</h1>
-
-    <br>
+    <h1 class="text-4xl font-bold text-center mb-6">Challenge Program</h1>
 
     <div class="flex justify-center">
         <div class="flex flex-col" id="details-div">
 
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Date</h2>
                     <p>Oct 28, 2024</p>
@@ -49,15 +47,13 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Schedule (tentative)</h2>
                     <p>All times are in Melbourne time zone (AEDT,
                         <a class="link link-info" href="https://www.timeanddate.com/time/zone/australia/melbourne">GMT+11</a>).
                     </p>
-                    <br>
+                    <span class="mb-6"></span>
                     <div class="overflow-x-auto">
                         <table class="table bg-base-300">
                             <!-- head -->
@@ -82,9 +78,7 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Speakers</h2>
 
@@ -104,7 +98,6 @@
                     {/each}
                 </div>
             </div>
-            <br>
         </div>
     </div>
     <div class="h-12 footer-pad"/>

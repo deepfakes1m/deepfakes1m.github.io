@@ -15,12 +15,10 @@
     <div class="h-16 w-full"/>
     <h1 class="text-4xl font-bold text-center">Evaluation</h1>
 
-    <br>
-
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-6">
         <div class="flex flex-col" id="details-div">
 
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Benchmark Platform</h2>
                     <p>We use Codabench (<a href="https://www.codabench.org/competitions/4221/?secret_key=b8639f4e-8227-4018-93f3-f7d8fff6b0e1" class="link link-info">link</a>)
@@ -29,9 +27,7 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Submission Steps</h2>
                     <h4 class="font-bold">Step 1 - Benchmark platform:</h4>
@@ -42,7 +38,7 @@
                             goto('/2024/registration')
                         }}>registration</a> to get the dataset).</p>
 
-                    <br>
+                    <span class="mb-6"></span>
                     <h4 class="font-bold">Step 2 - Prepare predictions:</h4>
                     <p>Prepare your submission files with the format mentioned in <a href="{base}/2024/details" class="link link-info" on:click={() => {
                             tabNum.set(2)
@@ -52,7 +48,7 @@
                         of them based on the tasks you participate, <span class="font-bold text-primary">then compress them as a zip file</span>.
                     </p>
 
-                    <br>
+                    <span class="mb-6"></span>
                     <h4 class="font-bold">Step 3 - Submission:</h4>
                     <p>In Codabench tab "My Submissions", section "Submission upload", <span
                             class="font-bold text-primary">select the tasks</span>, then upload the zip file.</p>

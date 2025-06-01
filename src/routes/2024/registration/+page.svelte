@@ -19,9 +19,7 @@
             <div class="h-16 w-full"/>
         {/if}
     </MediaQuery>
-    <h1 class="text-4xl font-bold text-center">Challenge Registration</h1>
-
-    <br>
+    <h1 class="text-4xl font-bold text-center mb-6">Challenge Registration</h1>
 
     <div class="flex-1"/>
 

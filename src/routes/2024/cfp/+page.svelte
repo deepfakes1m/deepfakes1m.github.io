@@ -16,12 +16,10 @@
     <div class="h-16 w-full"/>
     <h1 class="text-4xl font-bold text-center">Call For Papers</h1>
 
-    <br>
-
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-6">
         <div class="flex flex-col" id="details-div">
 
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Call For Papers</h2>
                     <p>
@@ -54,9 +52,7 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Submission Guideline</h2>
                     <p>
@@ -78,7 +74,6 @@
                 </div>
             </div>
 
-            <br>
         </div>
     </div>
     <div class="h-12 footer-pad"/>

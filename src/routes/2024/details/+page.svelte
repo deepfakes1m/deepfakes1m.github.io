@@ -19,12 +19,10 @@
     <div class="h-16 w-full"/>
     <h1 class="text-4xl font-bold text-center">Challenge Details</h1>
 
-    <br>
-
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-6">
         <div class="flex flex-col" id="details-div">
 
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Dataset Summary</h2>
                     <p>For both tasks, we are using AV-Deepfake1M
@@ -94,9 +92,7 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Task 1: Deepfake Detection with Limited Label Access</h2>
                     <p>
@@ -130,9 +126,7 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Task 2: Deepfake Temporal Localization</h2>
                     <p>
@@ -164,14 +158,12 @@
                 </div>
             </div>
 
-            <br>
-
-            <div class="card w-full bg-base-200 shadow-xl">
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     <h2 class="card-title">Frequently Answered Questions</h2>
                     <p>Q: Can external data be used in the challenge?</p>
                     <p>A: Only <span class="font-bold">public</span> external data can be used.</p>
-                    <br>
+                    <span class="mb-6"></span>
                     <p>Q: How to convert the segments label in metadata to frame-level and video-level labels?</p>
                     <p>A: Codes are below.</p>
                     <div class="mockup-code">
@@ -186,8 +178,6 @@
 
                 </div>
             </div>
-
-            <br>
         </div>
     </div>
     <div class="h-12 footer-pad"/>
