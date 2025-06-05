@@ -56,7 +56,9 @@
                 <div class="card-body">
                     <h2 class="card-title">Submission Guideline</h2>
                     <p>
-                        Details will be shared soon.
+                        Paper Submission Deadline: August 1, 2025 <br/>
+                        Final Decision: August 7, 2025 <br />
+                        Camera Ready Deadline: August 26, 2025 <br />
                     </p>
                 </div>
             </div>
