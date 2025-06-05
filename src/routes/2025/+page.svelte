@@ -49,11 +49,11 @@
                 >Register
                 </button>
             </div>
-        </div>
-    </div>
         <p class="text"> CMT ACKNOWLEDGMENT: The Microsoft CMT service was used for managing the peer-reviewing process for this conference. 
 This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software 
 development and support. </p>
+        </div>
+    </div>
     <div class="flex-1"/>
     <div class="h-12 footer-pad"/>
 </div>
