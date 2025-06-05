@@ -63,6 +63,15 @@
                 </div>
             </div>
 
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
+                <div class="card-body">
+                    <h2 class="card-title">CMT Acknowledgment</h2>
+                    <p>
+                        The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="h-12 footer-pad"/>
