@@ -20,7 +20,8 @@
 
             <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
-                    The evaluation phase is ended. Please wait for the public benchmark platform to be released.
+                    The evaluation phase is ended. Please wait for the public benchmark platform to be released. <br>
+                    The ranking below is not final and will be finalised after hidden test set evaluation.
                 </div>
             </div>
 
