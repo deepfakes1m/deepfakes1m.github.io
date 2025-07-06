@@ -67,6 +67,7 @@
                         <table class="table table-xs bg-base-300">
                             <thead>
                                 <tr>
+                                    <th class="w-4">#</th>
                                     <th>Team</th>
                                     <th>TestA</th>
                                     <th>TestB</th>
@@ -74,51 +75,61 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>1</td>
                                     <td>XJTU SunFlower Lab</td>
                                     <td>0.9783</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>2</td>
                                     <td>WHU_SPEECH</td>
                                     <td>0.9307</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>3</td>
                                     <td>KLASS</td>
                                     <td>0.9278</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>4</td>
                                     <td>Pindrop Labs</td>
                                     <td>0.9249</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>5</td>
                                     <td>Mizhi Lab</td>
                                     <td>0.9178</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>6</td>
                                     <td>KETI</td>
                                     <td>0.8799</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>7</td>
                                     <td>Purdue-M2</td>
                                     <td>0.8267</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>8</td>
                                     <td>AILS-NTUA</td>
                                     <td>0.8238</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>9</td>
                                     <td>TrueSight</td>
                                     <td>0.7742</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>Baseline <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Chollet_Xception_Deep_Learning_CVPR_2017_paper.html" target="_blank" class="link link-info">Xception</a></td>
                                     <td>0.5509</td>
                                     <td>0.5729</td>
@@ -137,6 +148,7 @@
                         <table class="table table-xs bg-base-300">
                             <thead>
                                 <tr>
+                                    <th class="w-4">#</th>
                                     <th>Team</th>
                                     <th>TestA Score</th>
                                     <th>AP@0.5</th>
@@ -152,6 +164,7 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>1</td>
                                     <td>Pindrop Labs</td>
                                     <td>0.6720</td>
                                     <td>0.7794</td>
@@ -165,6 +178,7 @@
                                     <td>0.7493</td>
                                 </tr>
                                 <tr>
+                                    <td>2</td>
                                     <td>Mizhi Lab</td>
                                     <td>0.5500</td>
                                     <td>0.7281</td>
@@ -178,6 +192,7 @@
                                     <td>0.6514</td>
                                 </tr>
                                 <tr>
+                                    <td>3</td>
                                     <td>Purdue-M2</td>
                                     <td>0.5087</td>
                                     <td>0.6262</td>
@@ -191,6 +206,7 @@
                                     <td>0.5520</td>
                                 </tr>
                                 <tr>
+                                    <td>4</td>
                                     <td>WHU_SPEECH</td>
                                     <td>0.4130</td>
                                     <td>0.5052</td>
@@ -204,6 +220,7 @@
                                     <td>0.5364</td>
                                 </tr>
                                 <tr>
+                                    <td>5</td>
                                     <td>KLASS</td>
                                     <td>0.3536</td>
                                     <td>0.5117</td>
@@ -217,6 +234,7 @@
                                     <td>0.4258</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>Baseline <a href="https://www.sciencedirect.com/science/article/pii/S1077314223001984" target="_blank" class="link link-info">BA-TFD+</a></td>
                                     <td>0.1471</td>
                                     <td>0.1401</td>
@@ -230,6 +248,7 @@
                                     <td>0.1611</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>Baseline <a href="https://ieeexplore.ieee.org/document/10034605" target="_blank" class="link link-info">BA-TFD</a></td>
                                     <td>0.1354</td>
                                     <td>0.0981</td>
@@ -256,6 +275,7 @@
                         <table class="table table-xs bg-base-300">
                             <thead>
                                 <tr>
+                                    <th class="w-4">#</th>
                                     <th>Team</th>
                                     <th>TestB Score</th>
                                     <th>AP@0.5</th>
@@ -271,6 +291,7 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>-</td>
                                     <td>Pindrop Labs</td>
                                     <td>-</td>
                                     <td>-</td>
@@ -284,6 +305,7 @@
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>Mizhi Lab</td>
                                     <td>-</td>
                                     <td>-</td>
@@ -297,6 +319,7 @@
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>Purdue-M2</td>
                                     <td>-</td>
                                     <td>-</td>
@@ -310,6 +333,7 @@
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>WHU_SPEECH</td>
                                     <td>-</td>
                                     <td>-</td>
@@ -323,6 +347,7 @@
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>KLASS</td>
                                     <td>-</td>
                                     <td>-</td>
@@ -336,6 +361,7 @@
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>Baseline <a href="https://www.sciencedirect.com/science/article/pii/S1077314223001984" target="_blank" class="link link-info">BA-TFD+</a></td>
                                     <td>0.1515</td>
                                     <td>0.1620</td>
@@ -349,6 +375,7 @@
                                     <td>0.1698</td>
                                 </tr>
                                 <tr>
+                                    <td>-</td>
                                     <td>Baseline <a href="https://ieeexplore.ieee.org/document/10034605" target="_blank" class="link link-info">BA-TFD</a></td>
                                     <td>0.1117</td>
                                     <td>0.0463</td>

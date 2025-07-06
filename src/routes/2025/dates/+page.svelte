@@ -6,7 +6,7 @@
         {name: "Train and validation set release", date: "April 8, 2025"},
         {name: "Test set release & Evaluation begin", date: "June 2, 2025"},
         {name: "Evaluation end", date: "July 4, 2025"},
-        {name: "Post Evaluation Submission", date: "July 13, 2025"},
+        {name: "Post Evaluation Submission", date: "July 11, 2025"},
         {name: "Paper Invitation Decision", date: "July 16, 2025"},
         {name: "Paper Submission Deadline", date: "August 5, 2025"},
         {name: "Final Decision", date: "August 9, 2025"},
