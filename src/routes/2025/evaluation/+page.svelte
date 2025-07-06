@@ -99,11 +99,6 @@
                                     <td>-</td>
                                 </tr>
                                 <tr>
-                                    <td>FakeKiller</td>
-                                    <td>0.9025</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
                                     <td>KETI</td>
                                     <td>0.8799</td>
                                     <td>-</td>
