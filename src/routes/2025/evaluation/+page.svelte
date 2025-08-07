@@ -18,11 +18,44 @@
     <div class="flex justify-center mt-6">
         <div class="flex flex-col" id="details-div">
 
+
             <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
-                    The evaluation phase is ended. Please wait for the public benchmark platform to be released.
+                    <h2 class="card-title">Benchmark Platform</h2>
+                    <p>We use Codabench (<a href="https://www.codabench.org/competitions/9946/?secret_key=b7ae76c0-d896-4018-9676-5ab334f6a433" class="link link-info">testA</a>, <a href="https://www.codabench.org/competitions/10040/?secret_key=2dd6ae62-c1eb-4197-8af9-67d9edcd8910" class="link link-info">testB</a>)
+                    for evaluation the test subsets.
+                    </p>
                 </div>
             </div>
+
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
+                <div class="card-body">
+                    <h2 class="card-title">Submission Steps</h2>
+                    <h4 class="font-bold">Step 1 - Benchmark platform:</h4>
+                    <p>Sign up your account in Codabench and participate the benchmark (please note all participants should submit the form and send us the signed
+                        EULA in <a href="{base}/2025/registration" class="link link-info"
+                            on:click={() => {
+                            tabNum.set(2)
+                            goto('/2025/registration')
+                        }}>registration</a> to get the dataset).</p>
+
+                    <span class="mb-6"></span>
+                    <h4 class="font-bold">Step 2 - Prepare predictions:</h4>
+                    <p>Prepare your submission files with the format mentioned in <a href="{base}/2025/details" class="link link-info" on:click={() => {
+                            tabNum.set(3)
+                            goto('/2025/details')
+                        }}>details</a>. Name your prediction files for <span class="italic">Task 1</span> as "prediction.txt",
+                        prediction file for <span class="italic">Task 2</span> as "prediction.json". You can include either or both
+                        of them based on the tasks you participate, <span class="font-bold text-primary">then compress them as a zip file</span>.
+                    </p>
+
+                    <span class="mb-6"></span>
+                    <h4 class="font-bold">Step 3 - Submission:</h4>
+                    <p>In Codabench tab "My Submissions", section "Submission upload", <span
+                            class="font-bold text-primary">select the tasks</span>, then upload the zip file.</p>
+                </div>
+            </div>
+            
             <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
                     The ranking below is not final and will be finalised after hidden test set evaluation.

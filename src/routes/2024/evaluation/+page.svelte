@@ -34,14 +34,14 @@
                     <p>Sign up your account in Codabench and participate the benchmark (please note all participants should submit the form and send us the signed
                         EULA in <a href="{base}/2024/registration" class="link link-info"
                             on:click={() => {
-                            tabNum.set(1)
+                            tabNum.set(2)
                             goto('/2024/registration')
                         }}>registration</a> to get the dataset).</p>
 
                     <span class="mb-6"></span>
                     <h4 class="font-bold">Step 2 - Prepare predictions:</h4>
                     <p>Prepare your submission files with the format mentioned in <a href="{base}/2024/details" class="link link-info" on:click={() => {
-                            tabNum.set(2)
+                            tabNum.set(3)
                             goto('/2024/details')
                         }}>details</a>. Name your prediction files for <span class="italic">Task 1</span> as "prediction.txt",
                         prediction file for <span class="italic">Task 2</span> as "prediction.json". You can include either or both
