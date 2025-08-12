@@ -1,8 +1,10 @@
 <script>
     import step2Image from "$lib/assets/send_email.webp";
     import { EMAIL } from "$lib/consts";
-    import eulaLink from "$lib/assets/eula_2025.pdf";
+    import { base } from "$app/paths";
     import MediaQuery from "$lib/components/MediaQuery.svelte";
+
+    const eulaLink = `${base}/eula_2025.pdf`;
 </script>
 
 <MediaQuery query="(min-width: 800px)" let:matches>
