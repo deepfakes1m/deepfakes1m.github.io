@@ -26,7 +26,7 @@
     
     $: items = [
         { name: 'About', path: `/${$currentVersion}`, id: 0, enabled: true },
-        { name: 'Program', path: `/${$currentVersion}/program`, id: 1, enabled: $currentVersion === '2024' },
+        { name: 'Program', path: `/${$currentVersion}/program`, id: 1, enabled: true },
         { name: 'Registration', path: `/${$currentVersion}/registration`, id: 2, enabled: true },
         { name: 'Details', path: `/${$currentVersion}/details`, id: 3, enabled: true },
         { name: 'Evaluation', path: `/${$currentVersion}/evaluation`, id: 4, enabled: true },

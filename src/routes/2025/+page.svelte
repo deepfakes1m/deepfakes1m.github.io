@@ -16,7 +16,7 @@
         <div class="hero-content text-center">
             <div class="max-w-5xl">
                 <h1 class="text-5xl font-bold">2025 {TITLE}</h1>
-                <p class="text-xl py-6"><a href="https://2025.acmmm.org/" class="link link-info">ACM Multimedia 2025</a></p>
+                <p class="text-xl py-6"><a href="https://2025.acmmm.org/" class="link link-info">ACM Multimedia 2025</a> Oct 29, Dublin</p>
 
                 <p class="text-xl">The new 2025 challenge
                     builds on the successful <a class="link link-info" href="https://dl.acm.org/doi/abs/10.1145/3664647.3689145">
@@ -41,9 +41,17 @@
                     </div>
                 </div>
 
+                <button class="btn btn-accent w-64 mr-10"
+                        on:click={() => {
+                        tabNum.set(1)
+                        goto('/2025/program')
+                    }}
+                >Program
+                </button>
+
                 <button class="btn btn-primary w-64 mr-10"
                         on:click={() => {
-                        tabNum.set(2);
+                        tabNum.set(2)
                         goto('/2025/registration')
                     }}
                 >Register
