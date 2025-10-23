@@ -95,6 +95,30 @@ His contributions have been recognized with numerous prestigious awards, includi
                     {/each}
                 </div>
             </div>
+            
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
+                <div class="card-body">
+                    <h2 class="card-title">Presentation Instructions</h2>
+                    <p>
+                        Please prepare a presentation for your accepted paper.
+                    </p>
+                    <p>
+                        In every conference session, the organizers will provide a MacBook laptop with adapters, USB sticks (USB C &amp; 3.2) and laser pointers, running Keynote, Preview and Microsoft Powerpoint. Please use this laptop; do not use your own. It is essential, for the smooth running of each session, that all speakers upload their presentations to the podium laptop BEFORE the session begins, so the organizers ask all speakers to arrive at their session at least 15 minutes before the scheduled start-time to meet the session chair and upload the presentation to the podium laptop.
+                    </p>
+                    <p>
+                        Please send a copy of your presentation to
+                        <a class="link link-info" href="mailto:parul@monash.edu">parul@monash.edu</a>,
+                        <a class="link link-info" href="mailto:zhixi.cai@monash.edu">zhixi.cai@monash.edu</a> and
+                        <a class="link link-info" href="mailto:shreya.ghosh@uq.edu.au">shreya.ghosh@uq.edu.au</a>.
+                        You will need to bring your PowerPoint presentation on a USB with you to the Conference. If you have any video files in your presentation, please have these files saved separately on your USB.
+                    </p>
+                    <p>
+                        More details:
+                        <a class="link link-info" href="https://acmmm2025.org/information-for-presenters/">https://acmmm2025.org/information-for-presenters/</a>
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="h-12 footer-pad"/>
