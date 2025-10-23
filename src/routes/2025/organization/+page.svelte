@@ -43,9 +43,9 @@
                            url="https://profile.controlnet.space/"
                            className="p-2"
                 />
-                <Organizer name="Shreya Ghosh" affiliation="Curtin University"
+                <Organizer name="Shreya Ghosh" affiliation="The University of Queensland"
                            image={shreyaAvatar}
-                           url="https://staffportal.curtin.edu.au/staff/profile/view/shreya-ghosh-a2f9d3ca/"
+                           url="https://sites.google.com/view/shreyaghosh/home"
                            className="p-2"
                 />
             </div>
@@ -80,7 +80,7 @@
                 />
                 <Organizer name="Shreya Ghosh" affiliation="Curtin University"
                            image={shreyaAvatar}
-                           url="https://staffportal.curtin.edu.au/staff/profile/view/shreya-ghosh-a2f9d3ca/"
+                           url="https://sites.google.com/view/shreyaghosh/home"
                            className="p-2"
                 />
                 <Organizer name="Parul Gupta" affiliation="Monash University"
