@@ -1,8 +1,21 @@
-<script>
+<script lang="ts">
     import { TITLE } from "$lib/consts";
     import { tabNum } from "$lib/store/tab-num";
     import { goto } from "$app/navigation";
     import { base } from "$app/paths";
+
+    const LINKS = {
+        "AILS-NTUA": "https://www.ails.ece.ntua.gr",
+        "KLASS": "https://klasses.com.sg",
+        "Pindrop Labs": "https://www.pindrop.com/"
+    }
+
+    function renderTeamName(teamName: string) {
+        if (teamName in LINKS) {
+            return `<a href="${LINKS[teamName as keyof typeof LINKS]}" target="_blank" class="link link-info">${teamName}</a>`;
+        }
+        return teamName;
+    }
 </script>
 
 <svelte:head>
@@ -55,12 +68,6 @@
                             class="font-bold text-primary">select the tasks</span>, then upload the zip file.</p>
                 </div>
             </div>
-            
-            <div class="card w-full bg-base-200 shadow-xl mb-6">
-                <div class="card-body">
-                    The ranking below is not final and will be finalised after hidden test set evaluation.
-                </div>
-            </div>
 
             <!-- <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
@@ -104,68 +111,122 @@
                                     <th>Team</th>
                                     <th>TestA</th>
                                     <th>TestB</th>
+                                    <th>Average</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>XJTU SunFlower Lab</td>
+                                    <td>{@html renderTeamName("XJTU SunFlower Lab")}</td>
                                     <td>0.9783</td>
-                                    <td>-</td>
+                                    <td>0.9568</td>
+                                    <td>0.9676</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>WHU_SPEECH</td>
-                                    <td>0.9307</td>
-                                    <td>-</td>
+                                    <td>{@html renderTeamName("Pindrop Labs")}</td>
+                                    <td>0.9249</td>
+                                    <td>0.8936</td>
+                                    <td>0.9093</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>KLASS</td>
+                                    <td>{@html renderTeamName("KLASS")}</td>
                                     <td>0.9278</td>
-                                    <td>-</td>
+                                    <td>0.8654</td>
+                                    <td>0.8966</td>
                                 </tr>
+                                <!-- <tr>
+                                    <td>4</td>
+                                    <td>{@html renderTeamName("Mizhi Lab")}</td>
+                                    <td>0.9178</td>
+                                    <td>0.4877</td>
+                                    <td>0.7028</td>
+                                </tr> -->
                                 <tr>
                                     <td>4</td>
-                                    <td>Pindrop Labs</td>
-                                    <td>0.9249</td>
-                                    <td>-</td>
+                                    <td>{@html renderTeamName("KETI")}</td>
+                                    <td>0.8799</td>
+                                    <td>0.8407</td>
+                                    <td>0.8603</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Mizhi Lab</td>
-                                    <td>0.9178</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>KETI</td>
-                                    <td>0.8799</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>Purdue-M2</td>
-                                    <td>0.8267</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>AILS-NTUA</td>
+                                    <td>{@html renderTeamName("AILS-NTUA")}</td>
                                     <td>0.8238</td>
-                                    <td>-</td>
+                                    <td>0.7628</td>
+                                    <td>0.7933</td>
                                 </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>TrueSight</td>
+                                <!-- <tr>
+                                    <td>7</td>
+                                    <td>{@html renderTeamName("TrueSight")}</td>
                                     <td>0.7742</td>
                                     <td>-</td>
-                                </tr>
+                                    <td>-</td>
+                                </tr> -->
                                 <tr>
                                     <td>-</td>
                                     <td>Baseline <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Chollet_Xception_Deep_Learning_CVPR_2017_paper.html" target="_blank" class="link link-info">Xception</a></td>
                                     <td>0.5509</td>
                                     <td>0.5729</td>
+                                    <td>0.5619</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Temporal Localization Summary Table -->
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
+                <div class="card-body">
+                    <h2 class="card-title text-2xl mb-4">Temporal Localization</h2>
+                    <div class="overflow-x-auto">
+                        <table class="table table-xs bg-base-300">
+                            <thead>
+                                <tr>
+                                    <th class="w-4">#</th>
+                                    <th>Team</th>
+                                    <th>TestA</th>
+                                    <th>TestB</th>
+                                    <th>Average</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>{@html renderTeamName("Pindrop Labs")}</td>
+                                    <td>0.6720</td>
+                                    <td>0.4703</td>
+                                    <td>0.5712</td>
+                                </tr>
+                                <!-- <tr>
+                                    <td>2</td>
+                                    <td>{@html renderTeamName("Mizhi Lab")}</td>
+                                    <td>0.5500</td>
+                                    <td>0.1769</td>
+                                    <td>0.3635</td>
+                                </tr> -->
+                                <tr>
+                                    <td>2</td>
+                                    <td>{@html renderTeamName("KLASS")}</td>
+                                    <td>0.3536</td>
+                                    <td>0.2435</td>
+                                    <td>0.2986</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                    <td>Baseline <a href="https://www.sciencedirect.com/science/article/pii/S1077314223001984" target="_blank" class="link link-info">BA-TFD+</a></td>
+                                    <td>0.1471</td>
+                                    <td>0.1515</td>
+                                    <td>0.1493</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                    <td>Baseline <a href="https://ieeexplore.ieee.org/document/10034605" target="_blank" class="link link-info">BA-TFD</a></td>
+                                    <td>0.1354</td>
+                                    <td>0.1117</td>
+                                    <td>0.1236</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -198,7 +259,7 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Pindrop Labs</td>
+                                    <td>{@html renderTeamName("Pindrop Labs")}</td>
                                     <td>0.6720</td>
                                     <td>0.7794</td>
                                     <td>0.6652</td>
@@ -210,9 +271,9 @@
                                     <td>0.7784</td>
                                     <td>0.7493</td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <td>2</td>
-                                    <td>Mizhi Lab</td>
+                                    <td>{@html renderTeamName("Mizhi Lab")}</td>
                                     <td>0.5500</td>
                                     <td>0.7281</td>
                                     <td>0.5830</td>
@@ -223,38 +284,10 @@
                                     <td>0.6520</td>
                                     <td>0.6520</td>
                                     <td>0.6514</td>
-                                </tr>
+                                </tr> -->
                                 <tr>
-                                    <td>3</td>
-                                    <td>Purdue-M2</td>
-                                    <td>0.5087</td>
-                                    <td>0.6262</td>
-                                    <td>0.5249</td>
-                                    <td>0.4376</td>
-                                    <td>0.2616</td>
-                                    <td>0.5556</td>
-                                    <td>0.5556</td>
-                                    <td>0.5556</td>
-                                    <td>0.5552</td>
-                                    <td>0.5520</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>WHU_SPEECH</td>
-                                    <td>0.4130</td>
-                                    <td>0.5052</td>
-                                    <td>0.3438</td>
-                                    <td>0.1258</td>
-                                    <td>0.0425</td>
-                                    <td>0.6027</td>
-                                    <td>0.5887</td>
-                                    <td>0.5750</td>
-                                    <td>0.5551</td>
-                                    <td>0.5364</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>KLASS</td>
+                                    <td>2</td>
+                                    <td>{@html renderTeamName("KLASS")}</td>
                                     <td>0.3536</td>
                                     <td>0.5117</td>
                                     <td>0.4017</td>
@@ -324,75 +357,47 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>-</td>
-                                    <td>Pindrop Labs</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
+                                    <td>1</td>
+                                    <td>{@html renderTeamName("Pindrop Labs")}</td>
+                                    <td>0.4703</td>
+                                    <td>0.5268</td>
+                                    <td>0.3558</td>
+                                    <td>0.1631</td>
+                                    <td>0.0901</td>
+                                    <td>0.6872</td>
+                                    <td>0.6799</td>
+                                    <td>0.6696</td>
+                                    <td>0.6439</td>
+                                    <td>0.6030</td>
                                 </tr>
                                 <tr>
-                                    <td>-</td>
-                                    <td>Mizhi Lab</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>{@html renderTeamName("KLASS")}</td>
+                                    <td>0.2435</td>
+                                    <td>0.3606</td>
+                                    <td>0.2795</td>
+                                    <td>0.1061</td>
+                                    <td>0.0213</td>
+                                    <td>0.2950</td>
+                                    <td>0.2950</td>
+                                    <td>0.2950</td>
+                                    <td>0.2950</td>
+                                    <td>0.2950</td>
                                 </tr>
-                                <tr>
-                                    <td>-</td>
-                                    <td>Purdue-M2</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>-</td>
-                                    <td>WHU_SPEECH</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>-</td>
-                                    <td>KLASS</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
+                                <!-- <tr>
+                                    <td>3</td>
+                                    <td>{@html renderTeamName("Mizhi Lab")}</td>
+                                    <td>0.1769</td>
+                                    <td>0.2000</td>
+                                    <td>0.1470</td>
+                                    <td>0.0835</td>
+                                    <td>0.0370</td>
+                                    <td>0.2370</td>
+                                    <td>0.2370</td>
+                                    <td>0.2370</td>
+                                    <td>0.2370</td>
+                                    <td>0.2366</td>
+                                </tr> -->
                                 <tr>
                                     <td>-</td>
                                     <td>Baseline <a href="https://www.sciencedirect.com/science/article/pii/S1077314223001984" target="_blank" class="link link-info">BA-TFD+</a></td>

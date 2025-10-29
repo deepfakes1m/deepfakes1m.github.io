@@ -21,7 +21,7 @@
                 <p class="text-xl">The new 2025 challenge
                     builds on the successful <a class="link link-info" href="https://dl.acm.org/doi/abs/10.1145/3664647.3689145">
                     2024 challenge</a> to focus on the deepfake detection and localization.
-                    This year the challenge is based on new <span class="text-primary font-bold">AV-Deepfake1M++</span> containing over 2 million samples!</p>
+                    This year the challenge is based on new <span class="text-primary font-bold">AV-Deepfake1M++</span> (<a href="https://arxiv.org/abs/2507.20579" class="link link-info">paper</a>) containing over 2 million samples!</p>
 
                 <div class="flex flex-wrap">
                     <div class="card w-full bg-base-200/50 shadow-xl m-5">
