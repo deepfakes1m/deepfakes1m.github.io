@@ -24,6 +24,7 @@ jobs:
       - name: build
         env:
           BASE_PATH: ''
+          SITE_URL: https://${{ github.repository_owner }}.github.io
         run: |
           npm run build
 
