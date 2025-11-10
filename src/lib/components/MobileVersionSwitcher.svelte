@@ -4,8 +4,8 @@
     import { currentVersion } from "$lib/store/version";
 
     const versions = [
-        { year: 2025, path: '/2025' },
-        { year: 2024, path: '/2024' }
+		{ year: 2025, path: '/2025/about' },
+		{ year: 2024, path: '/2024/about' }
     ];
 
     $: currentYear = parseInt($currentVersion);

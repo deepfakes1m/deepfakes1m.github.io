@@ -13,7 +13,7 @@ export const load: LayoutLoad = async ({ url }) => {
 
     // Root path redirects to latest version (2025)
     if (pathname === '/') {
-        throw redirect(307, '/2025');
+		throw redirect(307, '/2025/about');
     }
 
     // Legacy paths redirect to 2024 version

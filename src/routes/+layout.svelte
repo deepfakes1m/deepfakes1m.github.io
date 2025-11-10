@@ -24,8 +24,8 @@
         }
     })
     
-    $: items = [
-        { name: 'About', path: `/${$currentVersion}`, id: 0, enabled: true },
+	$: items = [
+		{ name: 'About', path: `/${$currentVersion}/about`, id: 0, enabled: true },
         { name: 'Program', path: `/${$currentVersion}/program`, id: 1, enabled: true },
         { name: 'Registration', path: `/${$currentVersion}/registration`, id: 2, enabled: true },
         { name: 'Details', path: `/${$currentVersion}/details`, id: 3, enabled: true },
