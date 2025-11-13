@@ -95,6 +95,21 @@ His contributions have been recognized with numerous prestigious awards, includi
                     {/each}
                 </div>
             </div>
+
+            <div class="card w-full bg-base-200 shadow-xl mb-6">
+                <div class="card-body">
+                    <h2 class="card-title">Keynote Slides</h2>
+                    <p>Download the keynote slides from Junichi Yamagishi.</p>
+                    <a
+                        class="btn btn-primary w-fit"
+                        href="/keynote_2025.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View PDF
+                    </a>
+                </div>
+            </div>
             
             <div class="card w-full bg-base-200 shadow-xl mb-6">
                 <div class="card-body">
