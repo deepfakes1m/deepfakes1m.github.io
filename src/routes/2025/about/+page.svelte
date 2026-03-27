@@ -22,6 +22,7 @@
                     builds on the successful <a class="link link-info" href="https://dl.acm.org/doi/abs/10.1145/3664647.3689145">
                     2024 challenge</a> to focus on the deepfake detection and localization.
                     This year the challenge is based on new <span class="text-primary font-bold">AV-Deepfake1M++</span> (<a href="https://arxiv.org/abs/2507.20579" class="link link-info">paper</a>) containing over 2 million samples!</p>
+                <p class="text-xl pt-4"><span class="font-bold">News:</span> A new challenge is happening in MM 2026: <a href="https://explainable-deepfake-detection.github.io" class="link link-info">Explainable Deepfake Detection Challenge</a>.</p>
 
                 <div class="flex flex-wrap">
                     <div class="card w-full bg-base-200/50 shadow-xl m-5">
@@ -62,5 +63,4 @@
     <div class="flex-1"/>
     <div class="h-12 footer-pad"/>
 </div>
-
 
